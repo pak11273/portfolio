@@ -6,18 +6,19 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img
+          width="400px"
+          height="400px"
+          src={logo}
+          className="App-logo"
+          alt="logo"
+        />
         <h1>Isaac Pak</h1>
-        <h2>Isaac Pak</h2>
-        <h3>Isaac Pak</h3>
-        <h4>Isaac Pak</h4>
-        <h5>Isaac Pak</h5>
-        <h6>Isaac Pak</h6>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-          tenetur qui quod sint accusamus, cupiditate cumque quia laboriosam
-          ipsa odit dolore error? Similique repellendus asperiores voluptate
-          commodi nam sit mollitia?
+          I am a self taught web developer with more than 3+ years of experience
+          coupled with a digital marketing background. I have professionally
+          worked in the Graphic Design Industry for 5+ years. I have a variety
+          of skills but I'm looking to continue my growth in web development.
         </p>
         <a
           className="App-link"
