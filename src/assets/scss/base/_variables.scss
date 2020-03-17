@@ -1,0 +1,78 @@
+$primaryBg: #282c34;
+$white: white;
+
+/*=============================================
+// Typography 
+// href="https://fonts.googleapis.com/css?family=Oswald:700|Merriweather:400|Montserrat:600|Lora:400"
+=============================================*/
+
+$base-font-size: 16px;
+$base-font-color: $white;
+$base-font-family: Montserrat, arial;
+$base-font-weight: 100;
+$secondary-font-family: Merriweather, serif;
+
+$breakpoints: (
+  sm: 640px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1280px
+);
+
+$h1-font-sizes: (
+  null: 6rem,
+  sm: 6rem /* sm */,
+  md: 6rem /* md */,
+  lg: 6rem /* lg */,
+  xl: 6rem /* xl */
+);
+
+$h2-font-sizes: (
+  null: 5rem,
+  sm: 5rem /* sm */,
+  md: 5rem /* md */,
+  lg: 5rem /* lg */,
+  xl: 5rem /* xl */
+);
+
+$h3-font-sizes: (
+  null: 4rem,
+  sm: 4rem /* sm */,
+  md: 4rem /* md */,
+  lg: 4rem /* lg */,
+  xl: 4rem /* xl */
+);
+
+$h4-font-sizes: (
+  null: 3rem,
+  sm: 3rem /* sm */,
+  md: 3rem /* md */,
+  lg: 3rem /* lg */,
+  xl: 3rem /* xl */
+);
+
+$h5-font-sizes: (
+  null: 2.5rem,
+  sm: 2.5rem /* sm */,
+  md: 2.5rem /* md */,
+  lg: 2.5rem /* lg */,
+  xl: 2.5rem /* xl */
+);
+
+$h6-font-sizes: (
+  null: 2rem,
+  sm: 2rem /* sm */,
+  md: 2rem /* md */,
+  lg: 2rem /* lg */,
+  xl: 2rem /* xl */
+);
+
+$p-font-sizes: (
+  null: $base-font-size,
+  sm: 1rem,
+  md: 1rem,
+  lg: 1rem,
+  xl: 1rem
+);
+
+/*=====  End of Section comment block  ======*/

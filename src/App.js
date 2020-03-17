@@ -1,14 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import logo from "./assets/images/SELF.svg"
+import "./assets/scss/index.scss"
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>Isaac Pak</h1>
+        <h2>Isaac Pak</h2>
+        <h3>Isaac Pak</h3>
+        <h4>Isaac Pak</h4>
+        <h5>Isaac Pak</h5>
+        <h6>Isaac Pak</h6>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+          tenetur qui quod sint accusamus, cupiditate cumque quia laboriosam
+          ipsa odit dolore error? Similique repellendus asperiores voluptate
+          commodi nam sit mollitia?
         </p>
         <a
           className="App-link"
@@ -20,7 +29,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
