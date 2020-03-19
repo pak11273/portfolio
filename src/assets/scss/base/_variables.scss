@@ -1,5 +1,26 @@
-$primaryBg: #282c34;
+/*=============================================
+// Colors
+=============================================*/
+$bg-red: #561414;
+$fg-red: #c73030;
+$bg-primary: #282c34;
 $white: white;
+
+$brand-100: #f6fef4;
+$brand-200: #e2fbdb;
+$brand-300: #c4f7b7;
+$brand-400: #a7f394;
+$brand-500: #89ef70;
+$brand-600: #6deb4d;
+$brand-700: #55e830;
+$brand-800: #41e019;
+$brand-900: #39c416;
+$brand-1000: #31a813;
+$brand-1100: #288c10;
+
+$text-highlight: #606a7e;
+
+/*=====  End of Section comment block  ======*/
 
 /*=============================================
 // Typography 
@@ -101,5 +122,19 @@ $p-font-sizes: (
   ),
   xl: 1rem
 );
+
+/*=====  End of Section comment block  ======*/
+
+/*=============================================
+// Theme variables 
+=============================================*/
+
+/* $link-primary: $orange;
+$link-secondary: $blue;
+$link-tertiary: $grey;
+
+$radius-button: 5px;
+$radius-tab: 5px;
+*/
 
 /*=====  End of Section comment block  ======*/
