@@ -18,5 +18,6 @@ I used `sass` for styling.
 [x] - Restyle CV
 [_] - Add visual hierarchy to cv
 [_] - Rebuild project sections  
+[_] - launch new site
 
 ### Enjoy!
