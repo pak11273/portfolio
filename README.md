@@ -10,4 +10,11 @@ I used `sass` for styling.
 - The site is 100% responsive
 - Customized `animista` animations
 
+### Milestones
+
+[x] - Switch to create-react-app
+[x] - Add sass framework
+[ ] - Restyle CV
+[ ] - Rebuild project sections
+
 ### Enjoy!
