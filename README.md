@@ -14,10 +14,10 @@ I used `sass` for styling.
 
 [x] - Switch to create-react-app  
 [x] - Add sass framework  
-[x] - Hook up react-router  
-[x] - Restyle CV  
-[_] - Add visual hierarchy to cv  
-[_] - Rebuild project sections  
-[_] - launch new site  
+[x] - Hook up react-router 
+[x] - Restyle CV 
+[ ] - Add visual hierarchy to cv  
+[ ] - Rebuild project sections  
+[ ] - launch new site  
 
 ### Enjoy!
