@@ -1,0 +1,105 @@
+#cv-mast {
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  margin-top: 40px;
+  p {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+
+.categories {
+  margin-top: 30px;
+  @include uppercase;
+  font-size: 2rem;
+}
+
+.cv__company {
+  font-family: $base-font-family;
+  font-size: 1.5rem;
+  text-align: center !important;
+}
+
+.cv__date {
+  margin-top: 5px;
+  font-size: 1.3rem;
+}
+
+.cv__section {
+  margin-top: 30px;
+  ul {
+    margin: 40px;
+    list-style-type: disc;
+    text-align: left;
+  }
+  p {
+    text-align: justify;
+  }
+}
+
+.cv__section:nth-child(2) {
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+.cv__section:nth-child(3) {
+  margin-top: 40px;
+}
+
+.cv__section:nth-child(7) {
+  font-size: 30rem;
+  ul {
+    margin-bottom: 0;
+  }
+}
+
+.cv__section__skills__major {
+  h6 {
+    font-size: 1.5rem;
+  }
+  span {
+    font-size: 1rem;
+  }
+}
+
+.cv__section__skills__minor {
+  margin-top: 30px;
+  h6 {
+    font-size: 1.5rem;
+  }
+  span {
+    font-size: 1rem;
+  }
+}
+
+.cv__section__education {
+  p {
+    text-align: center;
+  }
+}
+.cv__section__skills__organizations {
+  margin-top: 60px;
+  ul {
+    margin-top: 20px;
+    margin-bottom: 300px;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: flex;
+    li:first-child {
+      margin-left: -9px;
+      list-style-type: none;
+    }
+    li {
+      margin-left: 30px;
+      list-style-type: disc;
+    }
+  }
+}
+
+.cv__section__copy {
+  margin-top: 30px;
+}

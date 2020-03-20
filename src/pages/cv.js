@@ -2,114 +2,188 @@ import React from "react"
 
 const CV = () => {
   return (
-    <div>
-      <div id="cv-mast">
+    <div className="wrapper">
+      <section id="cv-mast" className="row center-xs">
         <h4>Isaac Pak</h4>
         <h6>Full Stack Web Developer</h6>
-        <h6>pak11273@yahoo.com</h6>
-      </div>
-      <section>
-        <article>
-          I am a self taught web developer with more than 3+ years of experience
-          coupled with a digital marketing background. I have professionally
-          worked in the Graphic Design Industry for 5+ years. I have a variety
-          of skills but I'm looking to continue my growth in web development.
-        </article>
+        <p>walkingdead1631@yahoo.com</p>
       </section>
-      <section>
-        <h6>Experience</h6>
-        <h6>Freelance Web Developer</h6>
-        <article>
-          Utterzone 06/2016 – present I build and design applications varying
-          from static information sites to dynamic applications with user
-          interactivity. I can also help companies with branding and marketing.
-          Some of the tools I use are the React framework for frontend
-          applications, redux/sagas for state management, mongodb or sql for
-          databases, and graphql/rest for apis. I also have experience in php,
-          wordpress and the laravel framework.
-        </article>
+      <section className="cv__section row center-xs">
+        <p className="col-xs-8 col-md-6">
+          I am a web developer who loves to develop applications on the web. I
+          like getting my hands into everything from concept to production and
+          everything in-between.
+        </p>
       </section>
-      <section>
-        <h6>Digital Marketing Manager Sermonview 09/2014 – 06/2016</h6>
-        <article>
-          My main responsibility was to manage the company's internet marketing
-          campaigns. Marketing campaigns consisted of designing weekly email
-          campaigns and internet ads. This also required developing and
-          optimizing landing pages. I used google analytics to drive the
-          advertising campaigns. Online Marketing Manager Software Allies I also
-          have experience in php, wordpress and the laravel framework.
-        </article>
+      <section className="cv__section row center-xs">
+        <div className="col-md-6 col-xs-8">
+          <h5 className="categories">Experience</h5>
+          <div className="pin" />
+          <h6>Freelance Web Developer</h6>
+          <p className="cv__company">Utterzone </p>
+          <h6 className="cv__date">06/2016 – present</h6>
+          <p className="cv__section__copy">
+            I build and design applications varying from static information
+            sites to dynamic applications with user interactivity. I also help
+            companies with branding and marketing.
+          </p>
+          <ul>
+            <li>Build frontend applications with ReactJS and Redux</li>
+            <li>Build and maintain static sites with Html5, CSS3, SASS</li>
+            <li> Create apis in mongoose/mongoDB and postgreSQL</li>
+            <li>Create apis in Apollo graphql and Rest</li>
+            <li>Website maintenance and troubleshooting</li>
+          </ul>
+        </div>
       </section>
-      <section>
-        <h6>Online Marketing Manager Software Allies 04/2012 – 07/2014</h6>
-        <article>
-          I was in charge of managing the company's internet marketing. I worked
-          with the Sales Director to build the company branding and to create
-          our internet presence. A key role that I had was acquiring new clients
-          through my marketing efforts and starting new business relationships.
-          Sign Designer Outdoor Dimensions 03/2005 – 05/2008 Part of a design
-          team of 10 designers, I worked with project managers to design
-          architectural signs for clients. These designs had to sell to a niche
-          target while keeping a creative feel and also maintain the client's
-          branding. Some of the projects consisted of multi-million dollar
-          campaigns that included indoor,outdoor and monumental signs.
-        </article>
+      <section className="cv__section row center-xs">
+        <div className="col-md-6 col-xs-8">
+          <h6>Digital Marketing Manager</h6>
+          <p className="cv__company">Sermonview </p>
+          <h6 className="cv__date">09/2014 – 06/2016</h6>
+          <p className="cv__section__copy">
+            I designed, developed and maintained client websites. I also managed
+            the company's digital marketing campaigns and social media.
+          </p>
+          <ul>
+            <li>
+              Creating google adword campaigns from keyword analysis and a/b
+              testing
+            </li>
+            <li>Analyzed google analytics and reports</li>
+            <li>Designing email templates in MailChimp for mail marketing</li>
+            <li>Create landing pages for digital marketing campaigns</li>
+            <li>Maintained custom wordpress websites/plugins for clients</li>
+            <li>Developed php scripts to support client sites</li>
+          </ul>
+        </div>
       </section>
-      <section>
-        <h6>Graphic/Web Designer Altawood Inc. 12/2002 – 01/2005</h6>
-        <article>
-          This was my first graphic design job out of college. I was hired as an
-          assistant designer, but soon took the lead designer position after a
-          few months. I managed the company website, catalog and product
-          labeling. I worked closely with the sales manager to develop new
-          strategies for promoting the company products.
-        </article>
+      <section className="cv__section row center-xs">
+        <div className="col-md-6 col-xs-8">
+          <h6>Online Marketing Manager</h6>
+          <p className="cv__company">Software Allies</p>
+          <h6 className="cv__date">04/2012 – 07/2014</h6>
+          <p className="cv__section__copy">
+            I worked with the Sales Director to build the company branding and
+            to create our internet presence. Another key role that I played was
+            acquiring new clients through internet marketing efforts and
+            starting new business relationships.
+          </p>
+          <ul>
+            <li>Salesforce Certified Administrator</li>
+            <li>Project manager for several clients</li>
+            <li>Google Adwords Manager</li>
+            <li>Analyzed Google Analytics and reports</li>
+          </ul>
+        </div>
       </section>
-      <section id="skills">
-        <h6>
-          {" "}
-          Skills Major :{" "}
-          <span>
-            {" "}
+      <section className="cv__section row center-xs">
+        <div className="col-md-6 col-xs-8">
+          <h6>Sign Designer</h6>
+          <p className="cv__company">Outdoor Dimensions</p>
+          <h6 className="cv__date">03/2005 – 05/2008</h6>
+          <p className="cv__section__copy">
+            I was part of a design team that consisted of 10 designers. These
+            designs had to sell to a niche target while keeping a creative feel
+            and also maintain the client's branding. Some of the projects
+            consisted of large scale communities that included indoor, outdoor
+            and monumental signs.
+          </p>
+          <ul>
+            <li>Design architectural signs in Adobe</li>
+            <li>Illustrator/Photoshop</li>
+            <li>Design banners and flags</li>
+            <li>
+              Work closely with Sales reps and project managers to meet client
+              expectations
+            </li>
+            <li>Fast paced environment</li>
+          </ul>
+        </div>
+      </section>
+      <section className="cv__section row center-xs">
+        <div className="col-md-6 col-xs-8">
+          <h6>Graphic/Web Designer</h6>
+          <p className="cv__company">Altawood Inc.</p>
+          <h6 className="cv__date">12/2002 – 01/2005</h6>
+          <p className="cv__section__copy">
+            This was my first graphic design job out of college. I was hired as
+            an assistant designer, but soon took the lead designer position
+            after a few months. I worked closely with the sales manager to
+            develop new strategies for promoting the company products.
+          </p>
+          <ul>
+            <li>Built and maintained the company’s ecommerce site</li>
+            <li>Designed the company catalog with QuarksExpress</li>
+            <li>Designed product labels and ads with QuarksExpress</li>
+            <li>Maintained and updated all company marketing assets</li>
+          </ul>
+        </div>
+      </section>
+      <section className="cv__section cv__section__skills__major row center-xs">
+        <div className="col-md-6 col-xs-8">
+          <h5 className="cv__section__skills categories">Skills</h5>
+          <div className="pin" />
+          <h6>Major</h6>
+          <p>
             javascript, html5, css3, react, redux, sagas, nodejs, express,
             mongoose, mongodb, redis, web design, graphic design, rest, graphql,
             mysql
-          </span>
-        </h6>
-        <h6>Minor : </h6>
-        <span>php, wordpress, java, spring, python, postgres, dev ops</span>
+          </p>
+          <h6 className="cv__section__skills__minor ">Minor</h6>
+          <p>php, wordpress, java, spring, python, postgres, dev ops</p>
+        </div>
       </section>
-      <section id="organizations">
-        <h6>Organizations</h6>
-        <ul>
-          <li>
-            <a
-              href="http://stackoverflow.com/users/1991020/isaac-pak"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              stackoverflow
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://github.com/pak11273"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              github
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/isaac-pak-78b72687/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              linkedIn
-            </a>
-          </li>
-        </ul>
+      <section className="cv__section cv__section__skills__major cv__section__education row center-xs">
+        <div className="col-md-6 col-xs-8">
+          <h5 className="cv__section__skills categories">Education</h5>
+          <div className="pin" />
+          <h6>Westwood College - Ft.worth, TX</h6>
+          <p>Associates of Graphic Design</p>
+        </div>
+      </section>
+      <section className="cv__section row center-xs cv__section__skills__organizations">
+        <div className="col-md-6 col-xs-8">
+          <h6>Organizations</h6>
+          <ul>
+            <li>
+              <a
+                href="https://www.youtube.com/user/pak11273/videos?view_as=subscriber"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                youtube
+              </a>
+            </li>
+            <li>
+              <a
+                href="http://stackoverflow.com/users/1991020/isaac-pak"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                stackoverflow
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/pak11273"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                github
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/isaac-pak-78b72687/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                linkedIn
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </div>
   )
