@@ -14,6 +14,7 @@ I used `sass` for styling.
 
 [x] - Switch to create-react-app
 [x] - Add sass framework
+[x] - Hook up react-router
 [ ] - Restyle CV
 [ ] - Rebuild project sections
 
