@@ -12,10 +12,10 @@ I used `sass` for styling.
 
 ### Milestones
 
-[x] - Switch to create-react-app
-[x] - Add sass framework
-[x] - Hook up react-router
-[ ] - Restyle CV
-[ ] - Rebuild project sections
+[x] - Switch to create-react-app  
+[x] - Add sass framework  
+[x] - Hook up react-router  
+[ ] - Restyle CV  
+[ ] - Rebuild project sections  
 
 ### Enjoy!
