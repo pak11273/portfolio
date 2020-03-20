@@ -39,7 +39,7 @@ function App() {
               cy="255.423"
               fill="none"
               stroke="#fffffa"
-              stroke-width="1.058"
+              strokeWidth="1.058"
               r="10.41"
             />
             <path

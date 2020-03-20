@@ -6,7 +6,7 @@ const CV = () => {
       <section id="cv-mast" className="row center-xs">
         <h4>Isaac Pak</h4>
         <h6>Full Stack Web Developer</h6>
-        <p>walkingdead1631@yahoo.com</p>
+        <a href="mailto:walkingdead1631@gmail.com">walkingdead1631@yahoo.com</a>
       </section>
       <section className="cv__section row center-xs">
         <p className="col-xs-8 col-md-6">
@@ -19,7 +19,7 @@ const CV = () => {
         <div className="col-md-6 col-xs-8">
           <h5 className="categories">Experience</h5>
           <div className="pin" />
-          <h6>Freelance Web Developer</h6>
+          <h6 className="cv_section__title">Freelance Web Developer</h6>
           <p className="cv__company">Utterzone </p>
           <h6 className="cv__date">06/2016 – present</h6>
           <p className="cv__section__copy">
@@ -38,7 +38,7 @@ const CV = () => {
       </section>
       <section className="cv__section row center-xs">
         <div className="col-md-6 col-xs-8">
-          <h6>Digital Marketing Manager</h6>
+          <h6 className="cv_section__title">Digital Marketing Manager</h6>
           <p className="cv__company">Sermonview </p>
           <h6 className="cv__date">09/2014 – 06/2016</h6>
           <p className="cv__section__copy">
@@ -60,7 +60,7 @@ const CV = () => {
       </section>
       <section className="cv__section row center-xs">
         <div className="col-md-6 col-xs-8">
-          <h6>Online Marketing Manager</h6>
+          <h6 className="cv_section__title">Online Marketing Manager</h6>
           <p className="cv__company">Software Allies</p>
           <h6 className="cv__date">04/2012 – 07/2014</h6>
           <p className="cv__section__copy">
@@ -79,7 +79,7 @@ const CV = () => {
       </section>
       <section className="cv__section row center-xs">
         <div className="col-md-6 col-xs-8">
-          <h6>Sign Designer</h6>
+          <h6 className="cv_section__title">Sign Designer</h6>
           <p className="cv__company">Outdoor Dimensions</p>
           <h6 className="cv__date">03/2005 – 05/2008</h6>
           <p className="cv__section__copy">
@@ -103,7 +103,7 @@ const CV = () => {
       </section>
       <section className="cv__section row center-xs">
         <div className="col-md-6 col-xs-8">
-          <h6>Graphic/Web Designer</h6>
+          <h6 className="cv_section__title">Graphic/Web Designer</h6>
           <p className="cv__company">Altawood Inc.</p>
           <h6 className="cv__date">12/2002 – 01/2005</h6>
           <p className="cv__section__copy">
@@ -126,12 +126,12 @@ const CV = () => {
           <div className="pin" />
           <h6>Major</h6>
           <p>
-            javascript, html5, css3, react, redux, sagas, nodejs, express,
-            mongoose, mongodb, redis, web design, graphic design, rest, graphql,
-            mysql
+            OOP, Design Patterns, API Design, Web Design, Graphic Design,
+            JavaScript, SASS, React, Redux, Sagas, NodeJS, ExpressJS, Mongoose,
+            Mongodb, Redis, Rest, GraphQL, postgreSQL
           </p>
           <h6 className="cv__section__skills__minor ">Minor</h6>
-          <p>php, wordpress, java, spring, python, postgres, dev ops</p>
+          <p>java, spring, php, wordpress, mysql, dev ops</p>
         </div>
       </section>
       <section className="cv__section cv__section__skills__major cv__section__education row center-xs">

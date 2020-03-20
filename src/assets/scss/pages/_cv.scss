@@ -1,42 +1,51 @@
 #cv-mast {
-  text-align: center;
-  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
   flex-direction: column;
   margin-top: 40px;
-  p {
+  text-align: center;
+  h4 {
+    color: $brand-1000;
+  }
+  a {
     margin-top: 20px;
     text-align: center;
   }
 }
 
 .categories {
+  color: $brand-1000;
+  font-size: 2rem;
   margin-top: 30px;
   @include uppercase;
-  font-size: 2rem;
 }
 
 .cv__company {
+  color: $brand-400;
   font-family: $base-font-family;
   font-size: 1.5rem;
   text-align: center !important;
 }
 
 .cv__date {
-  margin-top: 5px;
   font-size: 1.3rem;
+  margin-top: 5px;
 }
 
 .cv__section {
   margin-top: 30px;
   ul {
-    margin: 40px;
     list-style-type: disc;
+    margin: 40px;
     text-align: left;
   }
   p {
     text-align: justify;
   }
+}
+
+.cv_section__title {
+  font-size: 1rem;
 }
 
 .cv__section:nth-child(2) {
@@ -81,21 +90,21 @@
   }
 }
 .cv__section__skills__organizations {
-  margin-top: 60px;
+  margin-top: 40px;
   ul {
-    margin-top: 20px;
-    margin-bottom: 300px;
-    display: -webkit-box;
     -webkit-box-pack: center;
-    justify-content: center;
+    display: -webkit-box;
     display: flex;
+    justify-content: center;
+    margin-bottom: 300px;
+    margin-top: 20px;
     li:first-child {
-      margin-left: -9px;
       list-style-type: none;
+      margin-left: -9px;
     }
     li {
-      margin-left: 30px;
       list-style-type: disc;
+      margin-left: 30px;
     }
   }
 }
