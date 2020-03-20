@@ -1,5 +1,25 @@
-p {
-  font-family: Merriweather, serif;
+#container {
+  position: relative;
+}
+
+#scrollToTop {
+  bottom: 0px;
+  display: none;
+  opacity: 40%;
+  position: fixed;
+  right: 0px;
+  -webkit-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  &:hover {
+    cursor: pointer;
+    opacity: 100%;
+  }
+}
+
+.scrollToTop__icon {
+  height: 50px;
+  margin: 20px;
+  width: 50px;
 }
 
 .nav {
@@ -84,11 +104,11 @@ p {
 }
 
 .masthead {
-  position: relative;
   margin-top: 90px;
+  position: relative;
   h2 {
-    font-size: 2rem;
     color: $brand-900;
+    font-size: 2rem;
   }
   h4 {
     font-size: 1.4rem;
@@ -98,16 +118,16 @@ p {
     @include uppercase;
   }
   p:first-child {
-    margin-top: 40px;
     font-size: 0.5rem;
+    margin-top: 40px;
   }
   p:nth-child(2),
   p:nth-child(3) {
     font-size: 0.7rem;
   }
   img {
-    width: 200px;
     height: 200px;
+    width: 200px;
   }
 }
 
@@ -116,11 +136,11 @@ p {
 }
 
 .masthead__rider {
-  position: absolute;
-  bottom: 80px;
-  left: 49px;
-  color: $fg-red;
   background: $bg-primary;
+  bottom: 80px;
+  color: $fg-red;
+  left: 49px;
+  position: absolute;
   h5 {
     font-size: 1.4rem;
   }
@@ -130,16 +150,53 @@ h2 {
   color: $brand-100;
 }
 
+.pin {
+  background-color: $white;
+  height: 4px;
+  margin: 14px auto;
+  width: 3rem;
+}
+
+.project__image {
+  background: center/100% no-repeat url("../../images/utterzone.png");
+  height: 200px;
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+.project__description {
+  width: 300px;
+}
+
+.project__title {
+  font-size: 1.5rem;
+  margin-bottom: 6px;
+  @include uppercase;
+}
+
+.project__copy {
+  text-align: justify;
+}
+
+/*=============================================
+// Utterzone
+=============================================*/
+.utterzone {
+  margin-top: 50px;
+}
+
+/*=====  End of Section comment block  ======*/
+
 /*=============================================
 // Media Queries
 =============================================*/
 @media (min-width: 420px) {
   .masthead__rider {
-    position: absolute;
-    bottom: 182px;
-    left: -45px;
-    color: $fg-red;
     background: $bg-primary;
+    bottom: 161px;
+    color: $fg-red;
+    left: -15px;
+    position: absolute;
   }
 
   .masthead {
@@ -150,8 +207,8 @@ h2 {
       font-size: 2.4rem;
     }
     img {
-      width: 400px;
       height: 400px;
+      width: 400px;
     }
   }
 }

@@ -35,4 +35,16 @@ p,
 ul,
 ol {
   @include font-size($p-font-sizes);
+  font-family: Merriweather, serif;
+}
+
+a {
+  text-decoration: none;
+  color: $link;
+  &:hover {
+    color: red;
+  }
+  &:visited {
+    color: $link;
+  }
 }
