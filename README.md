@@ -18,6 +18,10 @@ I used `sass` for styling.
 [x] - Restyle CV 
 [ ] - Add visual hierarchy to cv  
 [ ] - Rebuild project sections  
-[ ] - launch new site  
+[ ] - launch new site
+
+### Todos
+[ ] - Add easing to scroll top function
+[ ] - Create a "projects in the works" page
 
 ### Enjoy!
