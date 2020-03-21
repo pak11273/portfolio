@@ -9,7 +9,6 @@ import { Link } from "react-router-dom"
 function App() {
   useEffect(() => {
     document.addEventListener("scroll", () => {
-      console.log(window.scrollY)
       if (window.scrollY > 100) {
         document.getElementById("scrollToTop").style.display = "block"
       } else {
@@ -125,18 +124,26 @@ function App() {
             </div>
           </div>
         </section>
-        <section className="utterzone row center-xs">
-          <div className="project__image" />
-          <div className="project__description">
-            <h6 className="project__title">Utterzone.com</h6>
-            <div className="pin" />
-            <p className="project__copy">
-              Utterzone is a high-tech start-up that helps people learn
-              languages. The application features a robust chat system that
-              allows users to participate in language courses in a class like
-              setting.
-            </p>
+        <section className="row center-xs">
+          <div className="project">
+            <div className="project__image" />
+            <div className="project__description">
+              <h6 className="project__title">Utterzone.com</h6>
+              <div className="pin" />
+              <p className="project__copy">
+                Utterzone is a high-tech start-up that helps people learn
+                languages. The application features a robust chat system that
+                allows users to participate in language courses in a class like
+                setting.
+              </p>
+            </div>
           </div>
+        </section>
+        <section className="row center-xs">
+          <div className="section__placeholder" />
+        </section>
+        <section className="row center-xs">
+          <div className="footer">footer</div>
         </section>
       </div>
     </div>

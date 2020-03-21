@@ -4,3 +4,9 @@
   margin: 36px auto;
   width: 3rem;
 }
+
+@media (min-width: 1200px) {
+  .pin {
+    margin-left: 0;
+  }
+}
