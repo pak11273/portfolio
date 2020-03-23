@@ -23,5 +23,6 @@ I used `sass` for styling.
 ### Todos
 [ ] - Add easing to scroll top function
 [ ] - Create a "projects in the works" page
+[_] - Add animation to tech icons
 
 ### Enjoy!
