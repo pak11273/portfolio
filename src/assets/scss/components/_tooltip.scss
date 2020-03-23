@@ -1,0 +1,29 @@
+.tooltip {
+  align-items: center;
+  background-color: $bg-red;
+  border-radius: 14px;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  box-shadow: 2px 2px 8px black;
+  display: -webkit-box;
+  display: flex;
+  height: 50px;
+  left: 65%;
+  margin-left: -50px;
+  padding: 8px;
+  position: absolute;
+  text-align: center;
+  top: -70px;
+  visibility: hidden;
+  &:after {
+    /* arrow */
+    border-color: $bg-red transparent transparent transparent;
+    border-style: solid;
+    border-width: 8px;
+    content: "";
+    left: 50%;
+    margin-left: -8px;
+    position: absolute;
+    top: 100%; /* At the bottom of the tooltip */
+  }
+}

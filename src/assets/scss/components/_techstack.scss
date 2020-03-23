@@ -1,0 +1,17 @@
+.tech {
+  display: -webkit-box;
+  display: flex;
+}
+
+.tech__icon {
+  position: relative;
+  padding: 14px;
+  img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.tech__icon:hover .tooltip {
+  visibility: visible;
+}

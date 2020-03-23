@@ -5,6 +5,7 @@ import linkedIn from "./assets/images/pngwave.png"
 import stacked from "./assets/images/stacked-logo.png"
 import "./assets/scss/index.scss"
 import { Link } from "react-router-dom"
+import { ProjectLeft, ProjectRight } from "./components"
 
 function App() {
   useEffect(() => {
@@ -125,22 +126,28 @@ function App() {
           </div>
         </section>
         <section className="row center-xs">
-          <div className="project">
-            <div className="project__image" />
-            <div className="project__description">
-              <h6 className="project__title">Utterzone.com</h6>
-              <div className="pin" />
-              <p className="project__copy">
-                Utterzone is a high-tech start-up that helps people learn
-                languages. The application features a robust chat system that
-                allows users to participate in language courses in a class like
-                setting.
-              </p>
-            </div>
-          </div>
+          <ProjectLeft
+            img="utterzone__image"
+            title="Utterzone.com"
+            tech={[
+              "ReactJS",
+              "Styled-Components",
+              "Apollo GraphQL",
+              "NodeJS",
+              "MongoDB"
+            ]}
+          >
+            Utterzone is a high-tech start-up that helps people learn languages.
+            The application features a robust chat system that allows users to
+            participate in language courses in a class like setting.
+          </ProjectLeft>
         </section>
         <section className="row center-xs">
-          <div className="section__placeholder" />
+          <ProjectRight img="utterzone__image" title="Utterzone.com">
+            Utterzone is a high-tech start-up that helps people learn languages.
+            The application features a robust chat system that allows users to
+            participate in language courses in a class like setting.
+          </ProjectRight>
         </section>
         <section className="row center-xs">
           <div className="footer">footer</div>

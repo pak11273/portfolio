@@ -2,12 +2,6 @@
   position: relative;
 }
 
-.section__placeholder {
-  position: relative;
-  height: 1000px;
-  width: 100%;
-}
-
 #scrollToTop {
   bottom: 0px;
   display: none;
@@ -170,12 +164,20 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-top: 50px;
+  margin-top: 100px;
   position: relative;
+  height: 50vh;
   width: 80vw;
 }
+.project:first-of-type {
+  margin-top: 100px;
+}
 
-.project__image {
+.utterzone {
+  position: relative;
+}
+
+.utterzone__image {
   background: center/cover no-repeat url("../../images/utterzone.png");
   height: 0;
   margin: 20px;
@@ -208,37 +210,6 @@ h2 {
 /*=============================================
 // Media Queries
 =============================================*/
-@media (min-width: 1200px) {
-  .project {
-    -webkit-box-direction: normal;
-    -webkit-box-orient: horizontal;
-    flex-direction: row;
-  }
-
-  .project__description {
-    left: 0;
-    position: absolute;
-    text-align: left;
-    top: 80px;
-    width: 400px;
-    p {
-      font-size: 1.5vw;
-      line-height: 2.5rem;
-      text-align: left;
-      text-shadow: $bg-primary 5px 5px 5px;
-      width: 500px;
-    }
-  }
-  .project__image {
-    height: 0;
-    padding-bottom: 39%;
-    position: absolute;
-    right: 0px;
-    top: 10px;
-    width: 70%;
-  }
-}
-
 @media (min-width: 350px) {
   .masthead__rider {
     background: $bg-primary;
@@ -275,5 +246,47 @@ h2 {
     display: flex;
     justify-content: flex-end;
     width: 100%;
+  }
+
+  .project {
+    height: 60vh;
+  }
+}
+
+@media (min-width: 960px) {
+  .project {
+    height: 70vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .project {
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+  }
+
+  .project__description {
+    left: 0;
+    position: absolute;
+    text-align: left;
+    top: 40px;
+    width: 400px;
+    p {
+      font-size: 1.5vw;
+      line-height: 2.5rem;
+      text-align: left;
+      text-shadow: $bg-primary 5px 5px 5px;
+      width: 500px;
+    }
+  }
+
+  .utterzone__image {
+    height: 0;
+    padding-bottom: 39%;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    width: 70%;
   }
 }
