@@ -14,15 +14,17 @@ I used `sass` for styling.
 
 [x] - Switch to create-react-app  
 [x] - Add sass framework  
-[x] - Hook up react-router 
-[x] - Restyle CV 
+[x] - Hook up react-router
+[x] - Restyle CV
 [ ] - Add visual hierarchy to cv  
 [ ] - Rebuild project sections  
 [ ] - launch new site
 
 ### Todos
+
 [ ] - Add easing to scroll top function
 [ ] - Create a "projects in the works" page
 [_] - Add animation to tech icons
+[_] - Add youtube icon to navbar
 
 ### Enjoy!
