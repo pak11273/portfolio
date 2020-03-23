@@ -165,7 +165,9 @@ function App() {
           </ProjectRight>
         </section>
         <section className="row center-xs">
-          <div className="footer">footer</div>
+          <div className="footer">
+            All Rights Reserved &copy; {new Date().getFullYear()}
+          </div>
         </section>
       </div>
     </div>
