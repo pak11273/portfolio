@@ -3,6 +3,7 @@ import portrait from "./assets/images/SELF.svg"
 import git from "./assets/images/github-logo.png"
 import linkedIn from "./assets/images/pngwave.png"
 import stacked from "./assets/images/stacked-logo.png"
+import youtube from "./assets/images/logo-youtube.png"
 import "./assets/scss/index.scss"
 import { Link } from "react-router-dom"
 import { ProjectLeft, ProjectRight } from "./components"
@@ -52,6 +53,20 @@ function App() {
       <nav>
         <div className="nav row center-xs">
           <div className="main__menu col-xs-10">
+            <div className="main__menu__item main__menu__item--padding scale-in-center main__menu__item--hover delay-3">
+              <a
+                href="https://www.youtube.com/user/pak11273/videos?view_as=subscriber"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  width="30px"
+                  height="30px"
+                  src={youtube}
+                  alt="youtube icon"
+                />
+              </a>
+            </div>
             <div className="main__menu__item main__menu__item--padding scale-in-center main__menu__item--hover delay-3">
               <a
                 href="https://github.com/pak11273"
