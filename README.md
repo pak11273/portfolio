@@ -17,14 +17,14 @@ I used `sass` for styling.
 [x] - Hook up react-router
 [x] - Restyle CV
 [x] - Rebuild project sections  
-[x] - launch new site
-[ ] - Add animation to sections while scrolling
+[x] - launch new site  
+[ ] - Add animation to sections while scrolling  
 [ ] - Add visual hierarchy to cv
 
 ### Todos
 
 [x] - Add youtube icon to navbar  
-[x] - Add animation to tech icons
+[x] - Add animation to tech icons  
 [ ] - Add easing to scroll top function  
 [ ] - Create a "projects in the works" page
 
