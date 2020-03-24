@@ -7,6 +7,7 @@ import youtube from "./assets/images/logo-youtube.png"
 import "./assets/scss/index.scss"
 import { Link } from "react-router-dom"
 import { ProjectLeft, ProjectRight } from "./components"
+import { scrollTo } from "./assets/js/utilities"
 
 function App() {
   useEffect(() => {
@@ -21,8 +22,14 @@ function App() {
   })
 
   const scrollToTop = () => {
-    return window.scrollTo(0, 0)
+    const element = document.getElementById("container")
+    const bodyRect = document.body.getBoundingClientRect()
+    const elemRect = element.getBoundingClientRect()
+    const offset = elemRect.top - bodyRect.top
+    // return window.scrollTo(0, 0)
+    scrollTo(offset, null, 2000)
   }
+
   return (
     <div id="container">
       <div id="scrollToTop" onClick={() => scrollToTop()}>
