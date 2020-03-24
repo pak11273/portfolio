@@ -1,15 +1,3 @@
 @import "techstack";
 @import "tooltip";
-
-.pin {
-  background-color: $brand-1000;
-  height: 4px;
-  margin: 36px auto;
-  width: 3rem;
-}
-
-@media (min-width: 1200px) {
-  .pin {
-    margin-left: 0;
-  }
-}
+@import "pin";

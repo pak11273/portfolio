@@ -4,6 +4,7 @@ import StyledLogo from "../assets/images/logo-styled.jpg"
 import ApolloLogo from "../assets/images/logo-apollo.jpg"
 import NodeLogo from "../assets/images/logo-node.png"
 import MongoLogo from "../assets/images/logo-mongo.png"
+import SassLogo from "../assets/images/logo-sass.png"
 import { ToolTip } from "./tool-tip"
 
 const techMap = {
@@ -11,7 +12,8 @@ const techMap = {
   NodeJS: NodeLogo,
   ReactJS: ReactLogo,
   "Styled-Components": StyledLogo,
-  MongoDB: MongoLogo
+  MongoDB: MongoLogo,
+  Sass: SassLogo
 }
 
 const TechIcon = ({ tech }) => (
@@ -21,7 +23,7 @@ const TechIcon = ({ tech }) => (
   </div>
 )
 
-export const TechStack = ({ tech }) => {
+export const TechStack = ({ tech, right }) => {
   // onhover dynamic text
   useEffect(() => {
     ;[...document.getElementsByClassName("tech__icon")].map((x, i) => {
@@ -33,7 +35,7 @@ export const TechStack = ({ tech }) => {
   })
 
   return (
-    <div className="tech">
+    <div className={`tech + ${right ? " tech--right" : ""}`}>
       {tech.map((x, i) => {
         return (
           <div key={i}>

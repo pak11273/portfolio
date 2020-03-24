@@ -3,6 +3,11 @@
   display: flex;
 }
 
+.tech--right {
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+}
+
 .tech__icon {
   position: relative;
   padding: 14px;

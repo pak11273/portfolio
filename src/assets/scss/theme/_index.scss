@@ -169,8 +169,27 @@ h2 {
   height: 50vh;
   width: 80vw;
 }
+
 .project:first-of-type {
   margin-top: 100px;
+}
+
+.project__links {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 30px;
+  > div {
+    display: -webkit-box;
+    display: flex;
+    a {
+      color: $brand-1000;
+      &:hover {
+        color: $brand-400;
+      }
+    }
+  }
 }
 
 .utterzone {
@@ -179,6 +198,19 @@ h2 {
 
 .utterzone__image {
   background: center/cover no-repeat url("../../images/utterzone.png");
+  height: 0;
+  margin: 20px;
+  min-width: 300px;
+  padding-bottom: 49%;
+  width: 100%;
+}
+
+.solar {
+  position: relative;
+}
+
+.solar__image {
+  background: center/cover no-repeat url("../../images/solar.png");
   height: 0;
   margin: 20px;
   min-width: 300px;
@@ -203,6 +235,7 @@ h2 {
 }
 
 .footer {
+  margin-top: 800px;
   height: 400px;
   width: 100%;
 }
@@ -253,6 +286,12 @@ h2 {
   }
 }
 
+@media (min-width: 772px) {
+  .project {
+    height: 70vh;
+  }
+}
+
 @media (min-width: 960px) {
   .project {
     height: 70vh;
@@ -264,29 +303,92 @@ h2 {
     -webkit-box-direction: normal;
     -webkit-box-orient: horizontal;
     flex-direction: row;
+    height: 60vh;
   }
 
-  .project__description {
-    left: 0;
+  %project__description {
     position: absolute;
-    text-align: left;
     top: 40px;
     width: 400px;
     p {
       font-size: 1.5vw;
       line-height: 2.5rem;
-      text-align: left;
       text-shadow: $bg-primary 5px 5px 5px;
       width: 500px;
     }
   }
 
-  .utterzone__image {
+  .project__description {
+    @extend %project__description;
+    left: 0;
+    text-align: left;
+    p {
+      text-align: left;
+    }
+  }
+
+  .project__description--right {
+    @extend %project__description;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: end;
+    align-items: flex-end;
+    right: 0;
+    text-align: right;
+    width: 500px;
+    p {
+      text-align: right;
+    }
+  }
+
+  .project__links {
+    display: -webkit-box;
+    display: flex;
+    padding: 30px 30px 30px 0;
+    > div {
+      // padding-right: 20px;
+    }
+    div:nth-child(2) {
+      padding: 0;
+    }
+    div:nth-child(3) {
+      padding-right: 0;
+    }
+  }
+
+  .project__links:nth-of-type(1) {
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+  }
+
+  .project__links--right {
+    padding: 30px 0px 30px 30px;
+  }
+
+  .project__title {
+    width: 200px;
+  }
+
+  %image__responsive {
     height: 0;
     padding-bottom: 39%;
     position: absolute;
-    right: 0px;
     top: 10px;
     width: 70%;
+  }
+
+  .utterzone__image {
+    @extend %image__responsive;
+    right: 0px;
+  }
+
+  .solar__image {
+    @extend %image__responsive;
+    left: 0px;
   }
 }

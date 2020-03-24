@@ -143,7 +143,7 @@ function App() {
         <section className="row center-xs">
           <ProjectLeft
             img="utterzone__image"
-            title="Utterzone.com"
+            title="Utterzone"
             tech={[
               "ReactJS",
               "Styled-Components",
@@ -151,6 +151,8 @@ function App() {
               "NodeJS",
               "MongoDB"
             ]}
+            website="https://utterzone.com"
+            source="https://github.com/pak11273/utter"
           >
             Utterzone is a high-tech start-up that helps people learn languages.
             The application features a robust chat system that allows users to
@@ -158,10 +160,16 @@ function App() {
           </ProjectLeft>
         </section>
         <section className="row center-xs">
-          <ProjectRight img="utterzone__image" title="Utterzone.com">
-            Utterzone is a high-tech start-up that helps people learn languages.
-            The application features a robust chat system that allows users to
-            participate in language courses in a class like setting.
+          <ProjectRight
+            img="solar__image"
+            title="Solar Aquatic Solutions"
+            tech={["ReactJS", "Sass"]}
+            source="https://github.com/pak11273/solaraquaticsolutions"
+            website="http://uneven-trail.surge.sh/"
+          >
+            SolarAquaticSolutions is another high-tech start-up aimed to
+            providing the world with a unique system to filtering water. This
+            site is a gateway site for the public.
           </ProjectRight>
         </section>
         <section className="row center-xs">
