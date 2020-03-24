@@ -25,7 +25,7 @@ I used `sass` for styling.
 
 [x] - Add youtube icon to navbar  
 [x] - Add animation to tech icons  
-[ ] - Add easing to scroll top function  
+[x] - Add easing to scroll top function  
 [ ] - Create a "projects in the works" page
 
 ### Enjoy!
