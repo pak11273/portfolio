@@ -1,5 +1,6 @@
 ## surge deployment:
 
+- replace build script with "build": "react-scripts build && cp build/index.html build/200.html"
 - yarn build && cd build
 - surge
 - echo url (eg. determined-leg.surge.sh) > CNAME

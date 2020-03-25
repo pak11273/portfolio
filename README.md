@@ -26,6 +26,7 @@ I used `sass` for styling.
 [x] - Add youtube icon to navbar  
 [x] - Add animation to tech icons  
 [x] - Add easing to scroll top function  
+[ ] - CV links are broken
 [ ] - Create a "projects in the works" page
 
 ### Enjoy!
