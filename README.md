@@ -18,7 +18,7 @@ I used `sass` for styling.
 [x] - Restyle CV
 [x] - Rebuild project sections  
 [x] - launch new site  
-[ ] - Add animation to sections while scrolling  
+[x] - Add animation to sections while scrolling  
 [ ] - Add visual hierarchy to cv
 
 ### Todos
