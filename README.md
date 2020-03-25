@@ -14,8 +14,8 @@ I used `sass` for styling.
 
 [x] - Switch to create-react-app  
 [x] - Add sass framework  
-[x] - Hook up react-router
-[x] - Restyle CV
+[x] - Hook up react-router  
+[x] - Restyle CV  
 [x] - Rebuild project sections  
 [x] - launch new site  
 [x] - Add animation to sections while scrolling  
