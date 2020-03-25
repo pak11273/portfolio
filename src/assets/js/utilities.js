@@ -1,3 +1,18 @@
+/* YOU NEED THIS FUNCTION TO SUPPORT THE OTHER SCROLL FUNCTIONS BELOW */
+
+export function isFullyVisible(el) {
+  var elementBoundary = el.getBoundingClientRect()
+
+  var top = elementBoundary.top
+  var bottom = elementBoundary.bottom
+
+  return top >= 0 && bottom <= window.innerHeight
+}
+
+/* EOF YOU NEED THIS FOR ANY SCROLL FUNCTIONS */
+
+/* SCROLL TO TOP UTILITIES */
+
 // easing functions http://goo.gl/5HLl8
 export const EaseInOutQuad = function(t, b, c, d) {
   t /= d / 2
@@ -69,3 +84,18 @@ export function scrollTo(to, callback, duration) {
   }
   animateScroll()
 }
+
+/* EOF SCROLL TO TOP UTILITIES */
+
+/* ANIMATE VISIBLE COMPONENTS */
+export function isPartiallyVisible(el) {
+  var elementBoundary = el.getBoundingClientRect()
+
+  var top = elementBoundary.top
+  var bottom = elementBoundary.bottom
+  var height = elementBoundary.height
+
+  return top + height >= 0 && height + window.innerHeight >= bottom
+}
+
+/* EOF ANIMATE VISIBLE COMPONENTS */

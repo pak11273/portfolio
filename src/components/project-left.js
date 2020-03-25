@@ -11,8 +11,8 @@ export const ProjectLeft = ({
 }) => {
   return (
     <div className="project">
-      <div className={`${img}`} />
-      <div className="project__description">
+      <div className={`animate--left ${img}`} />
+      <div className="project__description animate--right">
         <h6 className="project__title">{title}</h6>
         <div className="project__links">
           <div>

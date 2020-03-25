@@ -7,19 +7,57 @@ import youtube from "./assets/images/logo-youtube.png"
 import "./assets/scss/index.scss"
 import { Link } from "react-router-dom"
 import { ProjectLeft, ProjectRight } from "./components"
-import { scrollTo } from "./assets/js/utilities"
+import {
+  scrollTo,
+  isPartiallyVisible,
+  isFullyVisible
+} from "./assets/js/utilities"
 
 function App() {
+  var isScrolling = false
+
+  function ScrollToTop(e) {
+    if (window.scrollY > 100) {
+      document.getElementById("scrollToTop").style.display = "block"
+    } else {
+      document.getElementById("scrollToTop").style.display = "none"
+    }
+  }
+
   useEffect(() => {
-    document.addEventListener("scroll", () => {
-      if (window.scrollY > 100) {
-        document.getElementById("scrollToTop").style.display = "block"
-      } else {
-        document.getElementById("scrollToTop").style.display = "none"
+    const projects = document.querySelectorAll(".project")
+    const animateLeft = document.querySelectorAll(".animate--left")
+    const animateRight = document.querySelectorAll(".animate--right")
+
+    function animationScrolling(e) {
+      for (var i = 0; i < projects.length; i++) {
+        var listItemLeft = animateLeft[i]
+        var listItemRight = animateRight[i]
+
+        if (isPartiallyVisible(projects[i])) {
+          listItemLeft.classList.add("active")
+          listItemRight.classList.add("active")
+        } else {
+          listItemLeft.classList.remove("active")
+          listItemRight.classList.remove("active")
+        }
       }
-    })
+    }
+
+    function throttleScroll(e) {
+      if (isScrolling === false) {
+        window.requestAnimationFrame(function() {
+          ScrollToTop(e)
+          animationScrolling(e)
+          isScrolling = false
+          animationScrolling(e)
+        })
+      }
+      isScrolling = true
+    }
+    document.addEventListener("scroll", throttleScroll, false)
     return document.removeEventListener("scroll", () => null)
-  })
+  }, [])
 
   const scrollToTop = () => {
     const element = document.getElementById("container")
