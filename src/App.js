@@ -218,6 +218,20 @@ function App() {
           </ProjectRight>
         </section>
         <section className="row center-xs">
+          <ProjectLeft
+            img="tailwind__image"
+            title="TailwindReact"
+            tech={["ReactJS", "MaterialUI"]}
+            website="http://extra-large-sail.surge.sh"
+            source="https://github.com/pak11273/tailwind"
+          >
+            TailwindReact is a startup I created to help React Developers
+            prototype their apps. Each component is handcrafted to work with
+            React and REact Router. The app features a styleguide and layout
+            builder.
+          </ProjectLeft>
+        </section>
+        <section className="row center-xs">
           <div className="footer">
             All Rights Reserved &copy; {new Date().getFullYear()}
           </div>

@@ -3,6 +3,7 @@ import ReactLogo from "../assets/images/logo-react.png"
 import StyledLogo from "../assets/images/logo-styled.jpg"
 import ApolloLogo from "../assets/images/logo-apollo.jpg"
 import NodeLogo from "../assets/images/logo-node.png"
+import MaterialLogo from "../assets/images/material.svg"
 import MongoLogo from "../assets/images/logo-mongo.png"
 import SassLogo from "../assets/images/logo-sass.png"
 import { ToolTip } from "./tool-tip"
@@ -13,7 +14,8 @@ const techMap = {
   ReactJS: ReactLogo,
   "Styled-Components": StyledLogo,
   MongoDB: MongoLogo,
-  Sass: SassLogo
+  Sass: SassLogo,
+  MaterialUI: MaterialLogo
 }
 
 const TechIcon = ({ tech }) => (

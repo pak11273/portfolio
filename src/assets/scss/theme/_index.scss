@@ -257,6 +257,19 @@ h2 {
   width: 100%;
 }
 
+.tailwind {
+  position: relative;
+}
+
+.tailwind__image {
+  background: center/cover no-repeat url("../../images/tailwind.png");
+  height: 0;
+  margin: 20px;
+  min-width: 300px;
+  padding-bottom: 49%;
+  width: 100%;
+}
+
 .project__description {
   margin: 0 auto;
   width: 80vw;
@@ -429,5 +442,10 @@ h2 {
   .solar__image {
     @extend %image__responsive;
     left: 0px;
+  }
+
+  .tailwind__image {
+    @extend %image__responsive;
+    right: 0px;
   }
 }
