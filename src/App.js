@@ -1,17 +1,19 @@
+import "./assets/scss/index.scss"
+
+import { ProjectLeft, ProjectRight } from "./components"
 import React, { useEffect } from "react"
-import portrait from "./assets/images/SELF.svg"
+import {
+  isFullyVisible,
+  isPartiallyVisible,
+  scrollTo,
+} from "./assets/js/utilities"
+
+import { Link } from "react-router-dom"
 import git from "./assets/images/github-logo.png"
 import linkedIn from "./assets/images/pngwave.png"
+import portrait from "./assets/images/SELF.svg"
 import stacked from "./assets/images/stacked-logo.png"
 import youtube from "./assets/images/logo-youtube.png"
-import "./assets/scss/index.scss"
-import { Link } from "react-router-dom"
-import { ProjectLeft, ProjectRight } from "./components"
-import {
-  scrollTo,
-  isPartiallyVisible,
-  isFullyVisible,
-} from "./assets/js/utilities"
 
 function App() {
   var isScrolling = false
@@ -222,7 +224,7 @@ function App() {
             img="tailwind__image"
             title="TailwindReact"
             tech={["ReactJS", "MaterialUI"]}
-            website="http://extra-large-sail.surge.sh"
+            website="https://tailwind.pak11273.now.sh/"
             source="https://github.com/pak11273/tailwind"
           >
             TailwindReact is a startup I created to help React Developers
