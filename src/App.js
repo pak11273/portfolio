@@ -10,7 +10,7 @@ import { ProjectLeft, ProjectRight } from "./components"
 import {
   scrollTo,
   isPartiallyVisible,
-  isFullyVisible
+  isFullyVisible,
 } from "./assets/js/utilities"
 
 function App() {
@@ -46,7 +46,7 @@ function App() {
 
     function throttleScroll(e) {
       if (isScrolling === false) {
-        window.requestAnimationFrame(function() {
+        window.requestAnimationFrame(function () {
           ScrollToTop(e)
           animationScrolling(e)
           isScrolling = false
@@ -194,7 +194,7 @@ function App() {
               "Styled-Components",
               "Apollo GraphQL",
               "NodeJS",
-              "MongoDB"
+              "MongoDB",
             ]}
             website="https://utterzone.com"
             source="https://github.com/pak11273/utter"
@@ -227,7 +227,7 @@ function App() {
           >
             TailwindReact is a startup I created to help React Developers
             prototype their apps. Each component is handcrafted to work with
-            React and REact Router. The app features a styleguide and layout
+            React and React Router. The app features a styleguide and layout
             builder.
           </ProjectLeft>
         </section>
