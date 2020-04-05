@@ -2,11 +2,7 @@ import "./assets/scss/index.scss"
 
 import { ProjectLeft, ProjectRight } from "./components"
 import React, { useEffect } from "react"
-import {
-  isFullyVisible,
-  isPartiallyVisible,
-  scrollTo,
-} from "./assets/js/utilities"
+import { isPartiallyVisible, scrollTo } from "./assets/js/utilities"
 
 import { Link } from "react-router-dom"
 import git from "./assets/images/github-logo.png"
@@ -232,6 +228,19 @@ function App() {
             React and React Router. The app features a styleguide and layout
             builder.
           </ProjectLeft>
+        </section>
+        <section className="row center-xs">
+          <ProjectRight
+            img="overseer__image"
+            title="Overseer"
+            tech={["ReactJS"]}
+            source="https://github.com/pak11273/overseer"
+            website="http://temporary-shoes.surge.sh/"
+          >
+            Overseer is a side project that I am working on for personal
+            properties that I manage. This will be a portal where renters can
+            make payments and inquiries.
+          </ProjectRight>
         </section>
         <section className="row center-xs">
           <div className="footer">
