@@ -1,6 +1,6 @@
-## My Portfolio Sites
+## My Portfolio Site
 
-This is a site that showcases some of the current projects I'm working on.
+This is a site that showcases some of the current projects that I'm working on.
 
 This project was built with `create-react-app`.
 I used `sass` for styling.
@@ -19,7 +19,7 @@ I used `sass` for styling.
 [x] - Rebuild project sections  
 [x] - launch new site  
 [x] - Add animation to sections while scrolling  
-[ ] - Add visual hierarchy to cv  
+[ ] - Add visual hierarchy to cv
 
 ### Todos
 
@@ -27,7 +27,7 @@ I used `sass` for styling.
 [x] - Add animation to tech icons  
 [x] - Add easing to scroll top function  
 [ ] - CV links are broken  
-[ ] - Add styled-components to tech-stack on sas project 
-[ ] - Create a "projects in the works" page  
+[ ] - Add styled-components to tech-stack on sas project
+[ ] - Create a "projects in the works" page
 
 ### Enjoy!
