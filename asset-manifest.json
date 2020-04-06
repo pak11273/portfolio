@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.bec078a4.chunk.css",
+    "main.js": "/portfolio/static/js/main.bed05325.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.bed05325.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.1e4abed2.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.1e4abed2.js.map",
+    "static/js/2.95767b86.chunk.js": "/portfolio/static/js/2.95767b86.chunk.js",
+    "static/js/2.95767b86.chunk.js.map": "/portfolio/static/js/2.95767b86.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.ebe51eda53a656861266d29f34cdabc9.js": "/portfolio/precache-manifest.ebe51eda53a656861266d29f34cdabc9.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.bec078a4.chunk.css.map": "/portfolio/static/css/main.bec078a4.chunk.css.map",
+    "static/js/2.95767b86.chunk.js.LICENSE.txt": "/portfolio/static/js/2.95767b86.chunk.js.LICENSE.txt",
+    "static/media/SELF.svg": "/portfolio/static/media/SELF.e3d222b1.svg",
+    "static/media/github-logo.png": "/portfolio/static/media/github-logo.5cd9f30e.png",
+    "static/media/logo-apollo.jpg": "/portfolio/static/media/logo-apollo.cf23f066.jpg",
+    "static/media/logo-mongo.png": "/portfolio/static/media/logo-mongo.ef76cdb9.png",
+    "static/media/logo-node.png": "/portfolio/static/media/logo-node.1d103fd7.png",
+    "static/media/logo-sass.png": "/portfolio/static/media/logo-sass.3d42ea20.png",
+    "static/media/logo-youtube.png": "/portfolio/static/media/logo-youtube.fe757060.png",
+    "static/media/material.svg": "/portfolio/static/media/material.cb2f65a2.svg",
+    "static/media/index.scss": "/portfolio/static/media/utterzone.a4d569ab.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1e4abed2.js",
+    "static/js/2.95767b86.chunk.js",
+    "static/css/main.bec078a4.chunk.css",
+    "static/js/main.bed05325.chunk.js"
+  ]
+}
