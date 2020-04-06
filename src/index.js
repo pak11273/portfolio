@@ -1,10 +1,13 @@
-import React from "react"
-import { Route, Switch, HashRouter as Router } from "react-router-dom"
-import ReactDOM from "react-dom"
 import "./index.css"
+
+import * as serviceWorker from "./serviceWorker"
+
+import { Route, HashRouter as Router, Switch } from "react-router-dom"
+
 import App from "./App"
 import CV from "./pages/cv"
-import * as serviceWorker from "./serviceWorker"
+import React from "react"
+import ReactDOM from "react-dom"
 
 const RoutedApp = () => (
   <Router>
