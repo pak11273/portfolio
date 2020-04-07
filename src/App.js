@@ -194,7 +194,7 @@ function App() {
               "NodeJS",
               "MongoDB",
             ]}
-            website="https://utterzone.com"
+            website="https://pak11273.github.io/uz"
             source="https://github.com/pak11273/utter"
           >
             Utterzone is a high-tech start-up that helps people learn languages.
