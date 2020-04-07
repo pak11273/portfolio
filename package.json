@@ -19,7 +19,8 @@
     "build": "react-scripts build && cp build/index.html build/200.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "yarn build && cp CNAME build/CNAME",
+    "//": "yarn build && cp CNAME build/CNAME",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
