@@ -208,7 +208,7 @@ function App() {
             title="Solar Aquatic Solutions"
             tech={["ReactJS", "Sass"]}
             source="https://github.com/pak11273/solaraquaticsolutions"
-            website="http://uneven-trail.surge.sh/"
+            website="http://pak11273.github.io/solaraquaticsolutions"
           >
             SolarAquaticSolutions is another high-tech start-up aimed to
             providing the world with a unique system to filtering water. This
