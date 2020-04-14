@@ -220,7 +220,7 @@ function App() {
             img="tailwind__image"
             title="TailwindReact"
             tech={["ReactJS", "MaterialUI"]}
-            website="https://tailwind.pak11273.now.sh/"
+            website="https://tailwind-react.now.sh/"
             source="https://github.com/pak11273/tailwind"
           >
             TailwindReact is a startup I created to help React Developers
@@ -235,7 +235,7 @@ function App() {
             title="Overseer"
             tech={["ReactJS"]}
             source="https://github.com/pak11273/overseer"
-            website="http://temporary-shoes.surge.sh/"
+            website="https://overspaces.now.sh/"
           >
             Overseer is a side project that I am working on for personal
             properties that I manage. This will be a portal where renters can
