@@ -19,15 +19,14 @@ I used `sass` for styling.
 [x] - Rebuild project sections  
 [x] - launch new site  
 [x] - Add animation to sections while scrolling  
-[ ] - Add visual hierarchy to cv
+[x] - Add visual hierarchy to cv
 
 ### Todos
 
 [x] - Add youtube icon to navbar  
 [x] - Add animation to tech icons  
 [x] - Add easing to scroll top function  
-[ ] - CV links are broken  
-[ ] - Add styled-components to tech-stack on sas project
-[ ] - Create a "projects in the works" page
+[x] - Fix CV links  
+[x] - Move todos to Github Projects
 
 ### Enjoy!
