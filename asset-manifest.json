@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.d7f7dc69.chunk.css",
-    "main.js": "/static/js/main.1c6386d4.chunk.js",
-    "main.js.map": "/static/js/main.1c6386d4.chunk.js.map",
+    "main.js": "/static/js/main.46a9d24b.chunk.js",
+    "main.js.map": "/static/js/main.46a9d24b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e825fe8e.js",
     "runtime-main.js.map": "/static/js/runtime-main.e825fe8e.js.map",
-    "static/js/2.bfc0328c.chunk.js": "/static/js/2.bfc0328c.chunk.js",
-    "static/js/2.bfc0328c.chunk.js.map": "/static/js/2.bfc0328c.chunk.js.map",
+    "static/js/2.c727367a.chunk.js": "/static/js/2.c727367a.chunk.js",
+    "static/js/2.c727367a.chunk.js.map": "/static/js/2.c727367a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.743c79bba2a03896f2f1aa3594e69653.js": "/precache-manifest.743c79bba2a03896f2f1aa3594e69653.js",
+    "precache-manifest.4619ac5ae446213f9771d8558156f569.js": "/precache-manifest.4619ac5ae446213f9771d8558156f569.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.d7f7dc69.chunk.css.map": "/static/css/main.d7f7dc69.chunk.css.map",
-    "static/js/2.bfc0328c.chunk.js.LICENSE.txt": "/static/js/2.bfc0328c.chunk.js.LICENSE.txt",
+    "static/js/2.c727367a.chunk.js.LICENSE.txt": "/static/js/2.c727367a.chunk.js.LICENSE.txt",
     "static/media/SELF.svg": "/static/media/SELF.e3d222b1.svg",
     "static/media/cloudinary.png": "/static/media/cloudinary.adc58d29.png",
     "static/media/github-logo.png": "/static/media/github-logo.5cd9f30e.png",
@@ -19,14 +19,15 @@
     "static/media/logo-mongo.png": "/static/media/logo-mongo.ef76cdb9.png",
     "static/media/logo-node.png": "/static/media/logo-node.1d103fd7.png",
     "static/media/logo-sass.png": "/static/media/logo-sass.3d42ea20.png",
+    "static/media/logo-tailwind.png": "/static/media/logo-tailwind.45a26774.png",
     "static/media/logo-youtube.png": "/static/media/logo-youtube.fe757060.png",
     "static/media/material.svg": "/static/media/material.cb2f65a2.svg",
     "static/media/index.scss": "/static/media/utterzone.a4d569ab.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e825fe8e.js",
-    "static/js/2.bfc0328c.chunk.js",
+    "static/js/2.c727367a.chunk.js",
     "static/css/main.d7f7dc69.chunk.css",
-    "static/js/main.1c6386d4.chunk.js"
+    "static/js/main.46a9d24b.chunk.js"
   ]
 }
