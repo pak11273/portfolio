@@ -206,7 +206,7 @@ function App() {
           <ProjectRight
             img="solar__image"
             title="Solar Aquatic Solutions"
-            tech={["ReactJS", "Sass"]}
+            tech={["ReactJS", "Cloudinary", "Styled-Components", "Sass"]}
             source="https://github.com/pak11273/solaraquaticsolutions"
             website="http://pak11273.github.io/solaraquaticsolutions"
           >
@@ -223,10 +223,9 @@ function App() {
             website="https://tailwind-react.now.sh/"
             source="https://github.com/pak11273/tailwind"
           >
-            TailwindReact is a startup I created to help React Developers
-            prototype their apps. Each component is handcrafted to work with
-            React and React Router. The app features a styleguide and layout
-            builder.
+            TailwindReact is an app that helps React Developers prototype their
+            apps with Tailwind Components. Components are curated from the web
+            then converted to React components.
           </ProjectLeft>
         </section>
         <section className="row center-xs">
