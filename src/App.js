@@ -231,14 +231,15 @@ function App() {
         <section className="row center-xs">
           <ProjectRight
             img="overseer__image"
-            title="Overseer"
-            tech={["ReactJS"]}
-            source="https://github.com/pak11273/overseer"
+            title="Overspaces"
+            tech={["ReactJS", "TailwindCSS"]}
+            source="https://github.com/pak11273/overspaces"
             website="https://overspaces.now.sh/"
           >
-            Overseer is a side project that I am working on for personal
-            properties that I manage. This will be a portal where renters can
-            make payments and inquiries.
+            Overspaces is the client facing site the Overseer site. Clients from
+            Overseer will be able to list properties for visitors that will be
+            able to use dynamic search and filter capabilities to find available
+            properties.
           </ProjectRight>
         </section>
         <section className="row center-xs">

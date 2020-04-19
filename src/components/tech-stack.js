@@ -8,6 +8,7 @@ import NodeLogo from "../assets/images/logo-node.png"
 import ReactLogo from "../assets/images/logo-react.png"
 import SassLogo from "../assets/images/logo-sass.png"
 import StyledLogo from "../assets/images/logo-styled.jpg"
+import TailwindLogo from "../assets/images/logo-tailwind.png"
 import { ToolTip } from "./tool-tip"
 
 const techMap = {
@@ -19,6 +20,7 @@ const techMap = {
   MongoDB: MongoLogo,
   Sass: SassLogo,
   MaterialUI: MaterialLogo,
+  TailwindCSS: TailwindLogo,
 }
 
 const TechIcon = ({ tech }) => (
