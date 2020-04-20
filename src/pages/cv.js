@@ -6,7 +6,7 @@ const CV = () => {
       <section id="cv-mast" className="row center-xs">
         <h4>Isaac Pak</h4>
         <h6>Full Stack Web Developer</h6>
-        <a href="mailto:walkingdead1631@gmail.com">walkingdead1631@yahoo.com</a>
+        <a href="mailto:pak11273@yahoo.com">pak11273@yahoo.com</a>
       </section>
       <section className="cv__section row center-xs">
         <p className="col-xs-8 col-md-6">
