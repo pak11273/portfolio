@@ -144,7 +144,7 @@ function App() {
             </div>
             <div className="main__menu__item--padding scale-in-center main__menu__item--hover delay-4">
               <Link to="/cv" target="_blank" rel="noopener noreferrer">
-                <p>cv</p>
+                <p className="">cv</p>
               </Link>
             </div>
           </div>
