@@ -306,8 +306,6 @@ h2 {
 }
 
 .project__description {
-  margin: 0 auto;
-  width: 80vw;
 }
 
 .project__title {
@@ -319,7 +317,6 @@ h2 {
 
 .project__copy {
   text-align: justify;
-  width: 300px;
 }
 
 .footer {
@@ -376,6 +373,7 @@ h2 {
 
   .project__copy {
     text-align: justify;
+    line-height: 1.6rem;
     width: 100%;
     max-width: 500px;
   }
@@ -432,7 +430,7 @@ h2 {
     align-items: flex-end;
     right: 0;
     text-align: right;
-    width: 500px;
+    // width: 500px;
     p {
       text-align: right;
     }
