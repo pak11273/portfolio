@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.d7f7dc69.chunk.css",
-    "main.js": "/static/js/main.faa7e6ca.chunk.js",
-    "main.js.map": "/static/js/main.faa7e6ca.chunk.js.map",
+    "main.css": "/static/css/main.6969f0e2.chunk.css",
+    "main.js": "/static/js/main.3e15acfe.chunk.js",
+    "main.js.map": "/static/js/main.3e15acfe.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e825fe8e.js",
     "runtime-main.js.map": "/static/js/runtime-main.e825fe8e.js.map",
-    "static/js/2.c727367a.chunk.js": "/static/js/2.c727367a.chunk.js",
-    "static/js/2.c727367a.chunk.js.map": "/static/js/2.c727367a.chunk.js.map",
+    "static/js/2.f02aec46.chunk.js": "/static/js/2.f02aec46.chunk.js",
+    "static/js/2.f02aec46.chunk.js.map": "/static/js/2.f02aec46.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.479f7728685e4eadf8db9586337488c7.js": "/precache-manifest.479f7728685e4eadf8db9586337488c7.js",
+    "precache-manifest.381335de5d69504f5e595db48a1f504a.js": "/precache-manifest.381335de5d69504f5e595db48a1f504a.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.d7f7dc69.chunk.css.map": "/static/css/main.d7f7dc69.chunk.css.map",
-    "static/js/2.c727367a.chunk.js.LICENSE.txt": "/static/js/2.c727367a.chunk.js.LICENSE.txt",
+    "static/css/main.6969f0e2.chunk.css.map": "/static/css/main.6969f0e2.chunk.css.map",
+    "static/js/2.f02aec46.chunk.js.LICENSE.txt": "/static/js/2.f02aec46.chunk.js.LICENSE.txt",
     "static/media/SELF.svg": "/static/media/SELF.e3d222b1.svg",
     "static/media/cloudinary.png": "/static/media/cloudinary.adc58d29.png",
     "static/media/github-logo.png": "/static/media/github-logo.5cd9f30e.png",
     "static/media/logo-apollo.jpg": "/static/media/logo-apollo.cf23f066.jpg",
     "static/media/logo-mongo.png": "/static/media/logo-mongo.ef76cdb9.png",
+    "static/media/logo-next.png": "/static/media/logo-next.fa8a9f48.png",
     "static/media/logo-node.png": "/static/media/logo-node.1d103fd7.png",
     "static/media/logo-sass.png": "/static/media/logo-sass.3d42ea20.png",
     "static/media/logo-tailwind.png": "/static/media/logo-tailwind.45a26774.png",
@@ -26,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e825fe8e.js",
-    "static/js/2.c727367a.chunk.js",
-    "static/css/main.d7f7dc69.chunk.css",
-    "static/js/main.faa7e6ca.chunk.js"
+    "static/js/2.f02aec46.chunk.js",
+    "static/css/main.6969f0e2.chunk.css",
+    "static/js/main.3e15acfe.chunk.js"
   ]
 }
