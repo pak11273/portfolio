@@ -7,7 +7,7 @@ export const ProjectRight = ({
   children,
   tech,
   website,
-  source
+  source,
 }) => {
   return (
     <div className="project">

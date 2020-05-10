@@ -67,7 +67,7 @@ function App() {
   }
 
   return (
-    <div id="container">
+    <div id="container" className="overflow-hidden">
       <div id="scrollToTop" onClick={() => scrollToTop()}>
         <svg
           className="scrollToTop__icon"
@@ -94,7 +94,7 @@ function App() {
         </svg>
       </div>
       <nav>
-        <div className="nav row center-xs">
+        <div className="nav center-xs">
           <div className="main__menu col-xs-10">
             <div className="main__menu__item main__menu__item--padding scale-in-center main__menu__item--hover delay-3">
               <a
@@ -151,39 +151,41 @@ function App() {
         </div>
       </nav>
       <div className="wrapper">
-        <section className="row center-xs ">
+        <section className="section">
           <div className="masthead">
             <img src={portrait} className="vibrate-1" alt="self portrait" />
-            <div className="puff-in-center-rider masthead__rider">
-              <h5>fullStack</h5>
-            </div>
-            <div>
-              <h2>Isaac Pak</h2>
-              <h4>Web Developer</h4>
-            </div>
-            <div>
-              <p>built with</p>
-              <p>
-                <span className="masthead__text--hightlight">
-                  create-react-app
-                </span>
-                <span> & </span>
-                <span className="masthead__text--hightlight">sass</span>
-              </p>
-              <p>
-                See the{" "}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/pak11273/portfolio"
-                >
-                  source code
-                </a>
-              </p>
+            <div className="masthead__text">
+              <div className="puff-in-center-rider masthead__rider">
+                <h5>fullStack</h5>
+              </div>
+              <div>
+                <h2>Isaac Pak</h2>
+                <h4>Web Developer</h4>
+              </div>
+              <div>
+                <p>built with</p>
+                <p>
+                  <span className="masthead__text--hightlight">
+                    create-react-app
+                  </span>
+                  <span> & </span>
+                  <span className="masthead__text--hightlight">sass</span>
+                </p>
+                <p>
+                  See the{" "}
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://github.com/pak11273/portfolio"
+                  >
+                    source code
+                  </a>
+                </p>
+              </div>
             </div>
           </div>
         </section>
-        <section className="row center-xs">
+        <section className="section">
           <ProjectLeft
             img="utterzone__image"
             title="Utterzone"
@@ -202,7 +204,7 @@ function App() {
             participate in language courses in a class like setting.
           </ProjectLeft>
         </section>
-        <section className="row center-xs">
+        <section className="section">
           <ProjectRight
             img="solar__image"
             title="Solar Aquatic Solutions"
@@ -215,7 +217,7 @@ function App() {
             site is a gateway site for the public.
           </ProjectRight>
         </section>
-        <section className="row center-xs">
+        <section className="section">
           <ProjectLeft
             img="tailwind__image"
             title="TailwindReact"
@@ -228,11 +230,11 @@ function App() {
             then converted to React components.
           </ProjectLeft>
         </section>
-        <section className="row center-xs">
+        <section className="section">
           <ProjectRight
             img="overseer__image"
             title="Overspaces"
-            tech={["ReactJS", "TailwindCSS"]}
+            tech={["NextJS", "ReactJS", "TailwindCSS"]}
             source="https://github.com/pak11273/overspaces"
             website="https://overspaces.now.sh/"
           >
@@ -242,7 +244,7 @@ function App() {
             properties.
           </ProjectRight>
         </section>
-        <section className="row center-xs">
+        <section className="section">
           <div className="footer">
             All Rights Reserved &copy; {new Date().getFullYear()}
           </div>

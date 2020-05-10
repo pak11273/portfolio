@@ -4,6 +4,7 @@ import ApolloLogo from "../assets/images/logo-apollo.jpg"
 import Cloudinary from "../assets/images/cloudinary.png"
 import MaterialLogo from "../assets/images/material.svg"
 import MongoLogo from "../assets/images/logo-mongo.png"
+import NextLogo from "../assets/images/logo-next.png"
 import NodeLogo from "../assets/images/logo-node.png"
 import ReactLogo from "../assets/images/logo-react.png"
 import SassLogo from "../assets/images/logo-sass.png"
@@ -14,6 +15,7 @@ import { ToolTip } from "./tool-tip"
 const techMap = {
   "Apollo GraphQL": ApolloLogo,
   Cloudinary: Cloudinary,
+  NextJS: NextLogo,
   NodeJS: NodeLogo,
   ReactJS: ReactLogo,
   "Styled-Components": StyledLogo,
