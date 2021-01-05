@@ -6,11 +6,11 @@ const CV = () => {
       <section id="cv-mast" className="row center-xs">
         <h4>Isaac Pak</h4>
         <h6>Full Stack Web Developer</h6>
-        <a href="mailto:pak11273@yahoo.com">isaac.pak.2024@gmail.com</a>
+        <a href="mailto:isaac.pak.2024@gmail.com">isaac.pak.2024@gmail.com</a>
       </section>
       <section className="cv__section row center-xs">
         <p className="col-xs-8 col-md-6">
-          I am a web developer who loves to develop applications on the web. I
+          I'm a fullstack web developer who loves to develop applications on the web. I
           like getting my hands into everything from concept to production and
           everything in-between.
         </p>
