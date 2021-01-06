@@ -10,29 +10,22 @@ const CV = () => {
       </section>
       <section className="cv__section row center-xs">
         <p className="col-xs-8 col-md-6">
-          I'm a fullstack web developer who loves to develop applications on the web. I
-          like getting my hands into everything from concept to production and
-          everything in-between.
+          I love to develop applications on the web. I like getting my hands into everything from concept to production and everything in between.
         </p>
       </section>
       <section className="cv__section row center-xs">
         <div className="col-md-6 col-xs-8">
           <h5 className="categories">Experience</h5>
           <div className="pin" />
-          <h6 className="cv_section__title">Freelance Web Developer</h6>
-          <p className="cv__company">Utterzone </p>
-          <h6 className="cv__date">06/2016 – present</h6>
-          <p className="cv__section__copy">
-            I build and design applications varying from static information
-            sites to dynamic applications with user interactivity. I also help
-            companies with branding and marketing.
-          </p>
+          <h6 className="cv_section__title">Marketing Manager</h6>
+          <p className="cv__company">Solar Aquatic Solutions</p>
+          <h6 className="cv__date">06/2016 – 07/2020</h6>
+          <p className="cv__section__copy">I was the lead marketing manager for a water purifying start up. I was in charge of heading all of the strategic marketing initiatives and all media platforms.</p>
           <ul>
-            <li>Build frontend applications with ReactJS and Redux</li>
-            <li>Build and maintain static sites with Html5, CSS3, SASS</li>
-            <li> Create apis in mongoose/mongoDB and postgreSQL</li>
-            <li>Create apis in Apollo graphql and Rest</li>
-            <li>Website maintenance and troubleshooting</li>
+            <li>Developed the company branding and website</li>
+            <li>Conducted SWOT Analysis and marketing research</li>
+            <li>Implemented and the company crm (Salesforce)</li>
+            <li>Rolled out weekly email marketing campaigns</li>
           </ul>
         </div>
       </section>
@@ -46,21 +39,17 @@ const CV = () => {
             the company's digital marketing campaigns and social media.
           </p>
           <ul>
-            <li>
-              Creating google adword campaigns from keyword analysis and a/b
-              testing
-            </li>
+            <li>Creating google adword campaigns from keyword analysis and a/b testing</li>
             <li>Analyzed google analytics and reports</li>
             <li>Designing email templates in MailChimp for mail marketing</li>
             <li>Create landing pages for digital marketing campaigns</li>
             <li>Maintained custom wordpress websites/plugins for clients</li>
-            <li>Developed php scripts to support client sites</li>
           </ul>
         </div>
       </section>
       <section className="cv__section row center-xs">
         <div className="col-md-6 col-xs-8">
-          <h6 className="cv_section__title">Online Marketing Manager</h6>
+          <h6 className="cv_section__title">Marketing/Office Manager</h6>
           <p className="cv__company">Software Allies</p>
           <h6 className="cv__date">04/2012 – 07/2014</h6>
           <p className="cv__section__copy">
@@ -71,7 +60,6 @@ const CV = () => {
           </p>
           <ul>
             <li>Salesforce Certified Administrator</li>
-            <li>Project manager for several clients</li>
             <li>Google Adwords Manager</li>
             <li>Analyzed Google Analytics and reports</li>
           </ul>
@@ -97,7 +85,6 @@ const CV = () => {
               Work closely with Sales reps and project managers to meet client
               expectations
             </li>
-            <li>Fast paced environment</li>
           </ul>
         </div>
       </section>
@@ -114,8 +101,7 @@ const CV = () => {
           </p>
           <ul>
             <li>Built and maintained the company’s ecommerce site</li>
-            <li>Designed the company catalog with QuarksExpress</li>
-            <li>Designed product labels and ads with QuarksExpress</li>
+            <li>Designed print media with QuarksExpress</li>
             <li>Maintained and updated all company marketing assets</li>
           </ul>
         </div>
@@ -128,10 +114,8 @@ const CV = () => {
           <p>
             OOP, Design Patterns, API Design, Web Design, Graphic Design,
             JavaScript, SASS, React, Redux, Sagas, NodeJS, ExpressJS, Mongoose,
-            Mongodb, Redis, Rest, GraphQL, postgreSQL
+            Mongodb, Redis, Rest, GraphQL, postgreSQL, GoLang, Gin
           </p>
-          <h6 className="cv__section__skills__minor ">Minor</h6>
-          <p>java, spring, php, wordpress, mysql, dev ops</p>
         </div>
       </section>
       <section className="cv__section cv__section__skills__major cv__section__education row center-xs">
