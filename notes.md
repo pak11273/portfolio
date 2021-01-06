@@ -15,3 +15,11 @@
 ## animation scrolling refs:
 
 - https://www.kirupa.com/animations/creating_scroll_activated_animations.htm
+
+## continuous integration
+
+- make changes
+- git add and cm and push
+- in root do: yarn deploy
+- cd build
+- surge ./
