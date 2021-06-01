@@ -1,34 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.7066cd91.chunk.css",
-    "main.js": "/static/js/main.5257fa7e.chunk.js",
-    "main.js.map": "/static/js/main.5257fa7e.chunk.js.map",
+    "main.css": "/static/css/main.53abe435.chunk.css",
+    "main.js": "/static/js/main.a4465694.chunk.js",
+    "main.js.map": "/static/js/main.a4465694.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e78d24ae.js",
     "runtime-main.js.map": "/static/js/runtime-main.e78d24ae.js.map",
-    "static/js/2.0f8b7f30.chunk.js": "/static/js/2.0f8b7f30.chunk.js",
-    "static/js/2.0f8b7f30.chunk.js.map": "/static/js/2.0f8b7f30.chunk.js.map",
+    "static/js/2.c6d52f24.chunk.js": "/static/js/2.c6d52f24.chunk.js",
+    "static/js/2.c6d52f24.chunk.js.map": "/static/js/2.c6d52f24.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8feb29668a646f14fd032279e7c49479.js": "/precache-manifest.8feb29668a646f14fd032279e7c49479.js",
+    "precache-manifest.306bd6c405dc9587a528c4f3e9c7b915.js": "/precache-manifest.306bd6c405dc9587a528c4f3e9c7b915.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.7066cd91.chunk.css.map": "/static/css/main.7066cd91.chunk.css.map",
-    "static/js/2.0f8b7f30.chunk.js.LICENSE.txt": "/static/js/2.0f8b7f30.chunk.js.LICENSE.txt",
+    "static/css/main.53abe435.chunk.css.map": "/static/css/main.53abe435.chunk.css.map",
+    "static/js/2.c6d52f24.chunk.js.LICENSE.txt": "/static/js/2.c6d52f24.chunk.js.LICENSE.txt",
     "static/media/SELF.svg": "/static/media/SELF.fabdce18.svg",
+    "static/media/index.scss": "/static/media/utterzone.a4d569ab.png",
     "static/media/cloudinary.png": "/static/media/cloudinary.adc58d29.png",
     "static/media/github-logo.png": "/static/media/github-logo.5cd9f30e.png",
     "static/media/logo-apollo.jpg": "/static/media/logo-apollo.cf23f066.jpg",
+    "static/media/logo-express.png": "/static/media/logo-express.98ff4822.png",
     "static/media/logo-mongo.png": "/static/media/logo-mongo.ef76cdb9.png",
     "static/media/logo-next.png": "/static/media/logo-next.fa8a9f48.png",
     "static/media/logo-node.png": "/static/media/logo-node.1d103fd7.png",
     "static/media/logo-sass.png": "/static/media/logo-sass.3d42ea20.png",
     "static/media/logo-tailwind.png": "/static/media/logo-tailwind.45a26774.png",
     "static/media/logo-youtube.png": "/static/media/logo-youtube.fe757060.png",
-    "static/media/material.svg": "/static/media/material.cb2f65a2.svg",
-    "static/media/index.scss": "/static/media/utterzone.a4d569ab.png"
+    "static/media/material.svg": "/static/media/material.cb2f65a2.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e78d24ae.js",
-    "static/js/2.0f8b7f30.chunk.js",
-    "static/css/main.7066cd91.chunk.css",
-    "static/js/main.5257fa7e.chunk.js"
+    "static/js/2.c6d52f24.chunk.js",
+    "static/css/main.53abe435.chunk.css",
+    "static/js/main.a4465694.chunk.js"
   ]
 }
