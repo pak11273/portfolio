@@ -1,4 +1,20 @@
-import React from "react"
+import React from "react";
+
+// Education
+// Lambda School, Full Stack Development						        Jan 2021 - June 2021
+// An online school for full stack web development and data science
+
+// Westwood College, Graphic Design						     Sept 2000 - June 2002
+// An art college for graphic and multimedia design
+
+// Work Experience
+// Marketing Mgr, SolarAquatic Solutions - Frisco, TX		                                     June 2016 - Jan 2021
+// Created and maintained company branding, catalog, website, stationery
+// Created email campaigns using mailChimp and hosted information webinars
+
+// Digital Media Mgr, Sermonview - Vancouver, WA                                                                   Jan 2018 - Sept 2020
+// Created and maintained G/A campaigns and generated monthly G/A reports
+// Created and maintained custom wordpress websites/plugins for clients
 
 const CV = () => {
   return (
@@ -10,8 +26,134 @@ const CV = () => {
       </section>
       <section className="cv__section row center-xs">
         <p className="col-xs-8 col-md-6">
-          I love to develop applications on the web. I like getting my hands into everything from concept to production and everything in between.
+          I love to develop applications on the web. I like getting my hands
+          into everything from concept to production and everything in between.
         </p>
+      </section>
+      <section className="cv__section row center-xs">
+        <div className="col-md-6 col-xs-8">
+          <h5 className="categories">Skills</h5>
+          <div className="pin" />
+        </div>
+      </section>
+      <section className="cv__section row center-xs">
+        <div className="col-md-6 col-xs-8">
+          <p className="cv__company">Frontend</p>
+          <h6 className="cv_section__title">
+            React.js, HTML, Sass, Javascript
+          </h6>
+        </div>
+        <div className="col-md-6 col-xs-8">
+          <p className="cv__company">Backend</p>
+          <h6 className="cv_section__title">
+            Node.js, PostgreSQL, Docker, Python, Java, Spring
+          </h6>
+        </div>
+        <div className="col-md-6 col-xs-8">
+          <p className="cv__company">Design</p>
+          <h6 className="cv_section__title">
+            Figma, Adobe Photoshop, Illustrator
+          </h6>
+        </div>
+      </section>
+      <section className="cv__section row center-xs">
+        <div className="col-md-6 col-xs-8">
+          <h5 className="categories">Software Solutions</h5>
+          <div className="pin" />
+          <h6 className="cv_section__title">Frontend Engineer</h6>
+          <p className="cv__company github">
+            <a href="https://github.com/Lambda-School-Labs/bg-emotion-tracker-fe-b">
+              Boys & Girls Club
+            </a>
+          </p>
+          <h6 className="cv__date">02/2021 – 03/2021</h6>
+          <p id="center_text">React | Java | Spring | Postgres</p>
+          <ul>
+            <li>
+              Built wireframes in figma for User login modal, QR reader, and
+              emoji picker
+            </li>
+            <li>
+              Fixed security vulnerabilities by securing routes for admins and
+              club directors by creating an HOC with React hooks.
+            </li>
+            <li>
+              Designed the state mgmt for users, clubs, and activities using
+              React's context api
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section className="cv__section row center-xs">
+        <div className="col-md-6 col-xs-8">
+          <h6 className="cv_section__title">Frontend Engineer</h6>
+          <p className="cv__company github">
+            <a href="https://github.com/pak11273/marketplace-fe">
+              African Marketplace
+            </a>
+          </p>
+          <h6 className="cv__date">03/2021 – 04/2021</h6>
+          <p id="center_text">React | Redux | Java | Spring | NodeJS</p>
+          <ul>
+            <li>
+              Used React to create UI components: LandingPage, Marketplace,
+              ProductCard, Navbar, Sidebar, Dropdown, Button, Footer, Header,
+              List, and Form
+            </li>
+            <li>
+              Created the theme and branding using Sass for the styles and
+              applied mixins to styles depending on content and category
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section className="cv__section row center-xs">
+        <div className="col-md-6 col-xs-8">
+          <h6 className="cv_section__title">Frontend Engineer</h6>
+          <p className="cv__company github">
+            <a href="https://github.com/pak11273/secret-recipes">
+              Secret Family Recipes
+            </a>
+          </p>
+          <h6 className="cv__date">04/2021 – 05/2021</h6>
+          <p id="center_text">React | Redux | Postgres | NodeJS</p>
+          <ul>
+            <li>
+              Used React.js to implement API calls so that users were able to
+              register and store their family recipes
+            </li>
+            <li>
+              Developed the global state using Redux for userReducer and
+              recipeReducers
+            </li>
+            <li>
+              Created all routes using React Router and included PrivateRoutes
+              for secured routes
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section className="cv__section row center-xs">
+        <div className="col-md-6 col-xs-8">
+          <h6 className="cv_section__title">Backend Engineer</h6>
+          <p className="cv__company github">
+            <a href="https://github.com/Rent-My-Tech-Stuff/java">
+              Rent My Tech Stuff
+            </a>
+          </p>
+          <h6 className="cv__date">04/2021 – 05/2021</h6>
+          <p id="center_text">React | Redux | Java | Spring | Postgres</p>
+          <ul>
+            <li>
+              Designed the User, Role, and Rental models using the Spring
+              Framework
+            </li>
+            <li>
+              Designed the API endpoints in the User and Rental controllers so
+              users can save their tech data to a Postgres database
+            </li>
+          </ul>
+        </div>
       </section>
       <section className="cv__section row center-xs">
         <div className="col-md-6 col-xs-8">
@@ -20,7 +162,11 @@ const CV = () => {
           <h6 className="cv_section__title">Marketing Manager</h6>
           <p className="cv__company">Solar Aquatic Solutions</p>
           <h6 className="cv__date">06/2016 – 07/2020</h6>
-          <p className="cv__section__copy">I was the lead marketing manager for a water purifying start up. I was in charge of heading all of the strategic marketing initiatives and all media platforms.</p>
+          <p className="cv__section__copy">
+            I was the lead marketing manager for a water purifying start up. I
+            was in charge of heading all of the strategic marketing initiatives
+            and all media platforms.
+          </p>
           <ul>
             <li>Developed the company branding and website</li>
             <li>Conducted SWOT Analysis and marketing research</li>
@@ -39,7 +185,10 @@ const CV = () => {
             the company's digital marketing campaigns and social media.
           </p>
           <ul>
-            <li>Creating google adword campaigns from keyword analysis and a/b testing</li>
+            <li>
+              Creating google adword campaigns from keyword analysis and a/b
+              testing
+            </li>
             <li>Analyzed google analytics and reports</li>
             <li>Designing email templates in MailChimp for mail marketing</li>
             <li>Create landing pages for digital marketing campaigns</li>
@@ -170,7 +319,7 @@ const CV = () => {
         </div>
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default CV
+export default CV;
