@@ -1,43 +1,43 @@
-import "./assets/scss/index.scss"
+import "./assets/scss/index.scss";
 
-import { ProjectLeft, ProjectRight } from "./components"
-import React, { useEffect } from "react"
-import { isPartiallyVisible, scrollTo } from "./assets/js/utilities"
+import { ProjectLeft, ProjectRight } from "./components";
+import React, { useEffect } from "react";
+import { isPartiallyVisible, scrollTo } from "./assets/js/utilities";
 
-import { Link } from "react-router-dom"
-import git from "./assets/images/github-logo.png"
-import linkedIn from "./assets/images/pngwave.png"
-import portrait from "./assets/images/SELF.svg"
-import stacked from "./assets/images/stacked-logo.png"
-import youtube from "./assets/images/logo-youtube.png"
+import { Link } from "react-router-dom";
+import git from "./assets/images/github-logo.png";
+import linkedIn from "./assets/images/pngwave.png";
+import portrait from "./assets/images/SELF.svg";
+import stacked from "./assets/images/stacked-logo.png";
+import youtube from "./assets/images/logo-youtube.png";
 
 function App() {
-  var isScrolling = false
+  var isScrolling = false;
 
   function ScrollToTop(e) {
     if (window.scrollY > 100) {
-      document.getElementById("scrollToTop").style.display = "block"
+      document.getElementById("scrollToTop").style.display = "block";
     } else {
-      document.getElementById("scrollToTop").style.display = "none"
+      document.getElementById("scrollToTop").style.display = "none";
     }
   }
 
   useEffect(() => {
-    const projects = document.querySelectorAll(".project")
-    const animateLeft = document.querySelectorAll(".animate--left")
-    const animateRight = document.querySelectorAll(".animate--right")
+    const projects = document.querySelectorAll(".project");
+    const animateLeft = document.querySelectorAll(".animate--left");
+    const animateRight = document.querySelectorAll(".animate--right");
 
     function animationScrolling(e) {
       for (var i = 0; i < projects.length; i++) {
-        var listItemLeft = animateLeft[i]
-        var listItemRight = animateRight[i]
+        var listItemLeft = animateLeft[i];
+        var listItemRight = animateRight[i];
 
         if (isPartiallyVisible(projects[i])) {
-          listItemLeft.classList.add("active")
-          listItemRight.classList.add("active")
+          listItemLeft.classList.add("active");
+          listItemRight.classList.add("active");
         } else {
-          listItemLeft.classList.remove("active")
-          listItemRight.classList.remove("active")
+          listItemLeft.classList.remove("active");
+          listItemRight.classList.remove("active");
         }
       }
     }
@@ -45,26 +45,26 @@ function App() {
     function throttleScroll(e) {
       if (isScrolling === false) {
         window.requestAnimationFrame(function () {
-          ScrollToTop(e)
-          animationScrolling(e)
-          isScrolling = false
-          animationScrolling(e)
-        })
+          ScrollToTop(e);
+          animationScrolling(e);
+          isScrolling = false;
+          animationScrolling(e);
+        });
       }
-      isScrolling = true
+      isScrolling = true;
     }
-    document.addEventListener("scroll", throttleScroll, false)
-    return document.removeEventListener("scroll", () => null)
-  }, [])
+    document.addEventListener("scroll", throttleScroll, false);
+    return document.removeEventListener("scroll", () => null);
+  }, []);
 
   const scrollToTop = () => {
-    const element = document.getElementById("container")
-    const bodyRect = document.body.getBoundingClientRect()
-    const elemRect = element.getBoundingClientRect()
-    const offset = elemRect.top - bodyRect.top
+    const element = document.getElementById("container");
+    const bodyRect = document.body.getBoundingClientRect();
+    const elemRect = element.getBoundingClientRect();
+    const offset = elemRect.top - bodyRect.top;
     // return window.scrollTo(0, 0)
-    scrollTo(offset, null, 2000)
-  }
+    scrollTo(offset, null, 2000);
+  };
 
   return (
     <div id="container" className="overflow-hidden">
@@ -186,6 +186,19 @@ function App() {
           </div>
         </section>
         <section className="section">
+          <ProjectRight
+            img="african__image"
+            title="African Marketplace"
+            tech={["ReactJS", "Sass", "NodeJS", "Express"]}
+            source="https://github.com/pak11273/marketplace-fe"
+            website="https://front-end-qgoeake9b-pak11273.vercel.app/"
+          >
+            Local farmer's market in Africa gain more sales by joining the
+            cloud. Rural Africa can now see what products their local businesses
+            are selling.
+          </ProjectRight>
+        </section>
+        <section className="section">
           <ProjectLeft
             img="utterzone__image"
             title="Utterzone"
@@ -251,7 +264,7 @@ function App() {
         </section>
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -249,6 +249,20 @@ h2 {
   }
 }
 
+.african__image {
+  position: relative;
+}
+
+.african__image {
+  background: url("../../images/african_market.png") no-repeat center/cover;
+  height: 0;
+  margin: 20px;
+  min-width: 300px;
+  max-width: 600px;
+  padding-bottom: 49%;
+  width: 100%;
+}
+
 .utterzone {
   position: relative;
 }
