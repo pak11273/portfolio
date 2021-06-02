@@ -1,13 +1,14 @@
-import React from "react"
-import { TechStack } from "."
+import React from "react";
+import { TechStack } from ".";
 
 export const ProjectLeft = ({
   img,
   title,
   children,
+  video,
   tech,
   website,
-  source
+  source,
 }) => {
   return (
     <div className="project">
@@ -27,11 +28,21 @@ export const ProjectLeft = ({
                 source
               </a>
             </div>
+            {video && (
+              <>
+                <div className="pin pin__left--vert" />
+                <div>
+                  <a href={video} target="_blank" rel="noopener noreferrer">
+                    video
+                  </a>
+                </div>
+              </>
+            )}
           </div>
         </div>
         <p className="project__copy">{children}</p>
         <TechStack tech={tech} />
       </div>
     </div>
-  )
-}
+  );
+};

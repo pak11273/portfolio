@@ -3,14 +3,18 @@ import React, { useEffect } from "react";
 import ApolloLogo from "../assets/images/logo-apollo.jpg";
 import Cloudinary from "../assets/images/cloudinary.png";
 import ExpressLogo from "../assets/images/logo-express.png";
+import JavaLogo from "../assets/images/logo-java.png";
 import MaterialLogo from "../assets/images/material.svg";
 import MongoLogo from "../assets/images/logo-mongo.png";
 import NextLogo from "../assets/images/logo-next.png";
 import NodeLogo from "../assets/images/logo-node.png";
+import PostgresLogo from "../assets/images/logo-postgres.png";
 import ReactLogo from "../assets/images/logo-react.png";
 import SassLogo from "../assets/images/logo-sass.png";
+import SpringLogo from "../assets/images/logo-spring.png";
 import StyledLogo from "../assets/images/logo-styled.jpg";
 import TailwindLogo from "../assets/images/logo-tailwind.png";
+import ReduxLogo from "../assets/images/logo-redux.png";
 import { ToolTip } from "./tool-tip";
 
 const techMap = {
@@ -22,9 +26,13 @@ const techMap = {
   ReactJS: ReactLogo,
   "Styled-Components": StyledLogo,
   MongoDB: MongoLogo,
+  Postgres: PostgresLogo,
   Sass: SassLogo,
+  Java: JavaLogo,
   MaterialUI: MaterialLogo,
+  Spring: SpringLogo,
   TailwindCSS: TailwindLogo,
+  Redux: ReduxLogo,
 };
 
 const TechIcon = ({ tech }) => (

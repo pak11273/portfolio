@@ -249,12 +249,26 @@ h2 {
   }
 }
 
-.african__image {
+.african {
   position: relative;
 }
 
 .african__image {
   background: url("../../images/african_market.png") no-repeat center/cover;
+  height: 0;
+  margin: 20px;
+  min-width: 300px;
+  max-width: 600px;
+  padding-bottom: 49%;
+  width: 100%;
+}
+
+.bandg {
+  position: relative;
+}
+
+.bandg__image {
+  background: center/cover no-repeat url("../../images/bandg.png");
   height: 0;
   margin: 20px;
   min-width: 300px;
@@ -269,6 +283,34 @@ h2 {
 
 .utterzone__image {
   background: url("../../images/utterzone.png") no-repeat center/cover;
+  height: 0;
+  margin: 20px;
+  min-width: 300px;
+  max-width: 600px;
+  padding-bottom: 49%;
+  width: 100%;
+}
+
+.techstuff {
+  position: relative;
+}
+
+.techstuff__image {
+  background: url("../../images/techstuff.png") no-repeat center/cover;
+  height: 0;
+  margin: 20px;
+  min-width: 300px;
+  max-width: 600px;
+  padding-bottom: 49%;
+  width: 100%;
+}
+
+.secret {
+  position: relative;
+}
+
+.secret__image {
+  background: center/cover no-repeat url("../../images/secretrecipe.png");
   height: 0;
   margin: 20px;
   min-width: 300px;
@@ -482,6 +524,26 @@ h2 {
     position: absolute;
     top: 10px;
     width: 70%;
+  }
+
+  .african__image {
+    @extend %image__responsive;
+    left: 0px;
+  }
+
+  .bandg__image {
+    @extend %image__responsive;
+    right: 0px;
+  }
+
+  .techstuff__image {
+    @extend %image__responsive;
+    right: 0px;
+  }
+
+  .secret__image {
+    @extend %image__responsive;
+    left: 0px;
   }
 
   .utterzone__image {

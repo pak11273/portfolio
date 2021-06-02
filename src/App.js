@@ -186,6 +186,47 @@ function App() {
           </div>
         </section>
         <section className="section">
+          <ProjectLeft
+            img="bandg__image"
+            title="Boys & Girls Club Experience Tracker"
+            tech={["ReactJS", "Java", "Spring", "Postgres"]}
+            website="https://b.bgexperiencetracker.dev/"
+            source="https://github.com/Lambda-School-Labs/bg-emotion-tracker-fe"
+            video="https://www.youtube.com/watch?v=k82mdWyWgxA"
+          >
+            This app trackes the member experience by retrieving feedback from
+            members throught their Boys & Girls Club experience. The Boys &
+            Girls Club now have a way to see how effective their programs are by
+            the ones who should give it, the kids!
+          </ProjectLeft>
+        </section>
+        <section className="section">
+          <ProjectRight
+            img="secret__image"
+            title="Secret Family Recipes"
+            tech={["ReactJS", "Redux", "Postgres", "NodeJS"]}
+            website="https://secret-recipes-indol.vercel.app/"
+            source="https://github.com/pak11273/secret-recipes"
+          >
+            Ever wanted to try out that new high tech gadget but couldn't afford
+            it? Now you can just rent it out for cheap from local local renters
+            or rent your own stuff and make some pocket money!
+          </ProjectRight>
+        </section>
+        <section className="section">
+          <ProjectLeft
+            img="techstuff__image"
+            title="Rent My Tech"
+            tech={["ReactJS", "Redux", "Java", "Spring", "Postgres"]}
+            website="https://techstuff-react-eygsmq063-pak11273.vercel.app/"
+            source="https://github.com/Rent-My-Tech-Stuff/java"
+          >
+            Ever wanted to try out that new high tech gadget but couldn't afford
+            it? Now you can just rent it out for cheap from local local renters
+            or rent your own stuff and make some pocket money!
+          </ProjectLeft>
+        </section>
+        <section className="section">
           <ProjectRight
             img="african__image"
             title="African Marketplace"

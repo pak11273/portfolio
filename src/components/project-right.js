@@ -1,10 +1,11 @@
-import React from "react"
-import { TechStack } from "."
+import React from "react";
+import { TechStack } from ".";
 
 export const ProjectRight = ({
   img,
   title,
   children,
+  video,
   tech,
   website,
   source,
@@ -27,11 +28,18 @@ export const ProjectRight = ({
                 source
               </a>
             </div>
+            {video && (
+              <div>
+                <a href={video} target="_blank" rel="noopener noreferrer">
+                  video
+                </a>
+              </div>
+            )}
           </div>
         </div>
         <p className="project__copy">{children}</p>
         <TechStack tech={tech} right />
       </div>
     </div>
-  )
-}
+  );
+};
