@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "83fa9cd3b69399a7d10e84321a18fc97",
+    "revision": "57b567922ce852409e25b46bc1f7ad7a",
     "url": "/index.html"
   },
   {
-    "revision": "0c2520c2d7ca20e209d2",
-    "url": "/static/css/main.53abe435.chunk.css"
+    "revision": "5950e19aaf2ab17c1355",
+    "url": "/static/css/main.73a4a6f3.chunk.css"
   },
   {
-    "revision": "771b45af3c37ca94cbd1",
-    "url": "/static/js/2.c6d52f24.chunk.js"
+    "revision": "863a7daf9bc965fcfdfa",
+    "url": "/static/js/2.c1bb673a.chunk.js"
   },
   {
     "revision": "9b318b6fb13190fe82c0677e9264b3c7",
-    "url": "/static/js/2.c6d52f24.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.c1bb673a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0c2520c2d7ca20e209d2",
-    "url": "/static/js/main.a4465694.chunk.js"
+    "revision": "5950e19aaf2ab17c1355",
+    "url": "/static/js/main.be3b57a7.chunk.js"
   },
   {
     "revision": "bd562502e192bef61335",
@@ -28,8 +28,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/SELF.fabdce18.svg"
   },
   {
-    "revision": "375746553073d5d889f6e4fa7e87a5d0",
-    "url": "/static/media/african_market.37574655.png"
+    "revision": "4ac49064f558f56265e756ffa3756ec2",
+    "url": "/static/media/african_market.4ac49064.png"
+  },
+  {
+    "revision": "5e08b3a0eb8b45ce9771e449fc9c6d6c",
+    "url": "/static/media/bandg.5e08b3a0.png"
   },
   {
     "revision": "adc58d295a98a8d147d07ed5d6d39995",
@@ -48,6 +52,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/logo-express.98ff4822.png"
   },
   {
+    "revision": "426d5f18b1e1c91f7fdbc8c0512555ee",
+    "url": "/static/media/logo-java.426d5f18.png"
+  },
+  {
     "revision": "ef76cdb954fad3eb6e081a2d18144249",
     "url": "/static/media/logo-mongo.ef76cdb9.png"
   },
@@ -60,8 +68,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/logo-node.1d103fd7.png"
   },
   {
+    "revision": "a05b6e7e349788ae1476397b34512caf",
+    "url": "/static/media/logo-postgres.a05b6e7e.png"
+  },
+  {
+    "revision": "4912f6d800e1b75354e0b5d4794e1856",
+    "url": "/static/media/logo-redux.4912f6d8.png"
+  },
+  {
     "revision": "3d42ea20eab7a1f305897d5100c78b1a",
     "url": "/static/media/logo-sass.3d42ea20.png"
+  },
+  {
+    "revision": "539d308c4f0064736a0d846381fab72e",
+    "url": "/static/media/logo-spring.539d308c.png"
   },
   {
     "revision": "45a2677424884e762b69f83d82daab60",
@@ -80,12 +100,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/overseer.c3c0656b.png"
   },
   {
+    "revision": "706592a655d16e0fbdf3cfc045f2f1ae",
+    "url": "/static/media/secretrecipe.706592a6.png"
+  },
+  {
     "revision": "d0b3a44c92d1f6e27087c488aaa20b52",
     "url": "/static/media/solar.d0b3a44c.png"
   },
   {
     "revision": "0cfa709c34063465c451a0bdf4716603",
     "url": "/static/media/tailwind.0cfa709c.png"
+  },
+  {
+    "revision": "51101332b5ee9c3934c9a6520f109f54",
+    "url": "/static/media/techstuff.51101332.png"
   },
   {
     "revision": "a4d569abd17fa8a5c869bacf2235db1a",
