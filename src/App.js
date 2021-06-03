@@ -208,9 +208,10 @@ function App() {
             website="https://secret-recipes-indol.vercel.app/"
             source="https://github.com/pak11273/secret-recipes"
           >
-            Ever wanted to try out that new high tech gadget but couldn't afford
-            it? Now you can just rent it out for cheap from local local renters
-            or rent your own stuff and make some pocket money!
+            That old family recipe book starting to look fragile? Use this app
+            and keep those precious recipes preserved in the cloud. Your recipes
+            are always backed up and secure so you'll never have to worry about
+            losing them.
           </ProjectRight>
         </section>
         <section className="section">
